@@ -1,13 +1,16 @@
+import Fetured from "../../../Components/Fetured/Fetured";
+import PopularMenu from "../../../Components/PopularMenu";
 import CategorySlider from "../CategorySlider/CategorySlider";
 import Slider from "../Slider/Slider";
 
- 
+
 const Home = () => {
     return (
         <div>
-            This is the home page
-        <Slider></Slider>
-        <CategorySlider></CategorySlider>
+            <Slider></Slider>
+            <CategorySlider></CategorySlider>
+            <PopularMenu></PopularMenu>
+            <Fetured></Fetured>
         </div>
     );
 };
