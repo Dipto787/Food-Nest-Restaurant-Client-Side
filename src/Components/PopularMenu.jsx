@@ -3,7 +3,7 @@ import SectionTitle from "./Shared/SectionTitle/SectionTitle";
 import ItemMenu from "./Shared/ItemMenu/ItemMenu";
 
 const PopularMenu = () => {
-    let [menu, setMenu] = useState([]); 
+    let [menu, setMenu] = useState([]);
     useEffect(() => {
         fetch('menu.json')
             .then(res => res.json())
@@ -20,8 +20,11 @@ const PopularMenu = () => {
             ></SectionTitle>
             <div className="grid md:grid-cols-2 gap-10">
                 {
-                    menu.map(item=><ItemMenu item={item}></ItemMenu>)
+                    menu.map(item => <ItemMenu item={item}></ItemMenu>)
                 }
+            </div>
+            <div className="text-center">
+                <button className="btn px-8 btn-outline border-0 border-b-4 my-4">View Full Menu</button>
             </div>
         </div>
     );

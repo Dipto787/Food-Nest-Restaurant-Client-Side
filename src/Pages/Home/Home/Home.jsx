@@ -1,3 +1,5 @@
+import CallUs from "../../../Components/CallUs";
+import ChefService from "../../../Components/ChefService";
 import Fetured from "../../../Components/Fetured/Fetured";
 import PopularMenu from "../../../Components/PopularMenu";
 import Testimonial from "../../../Components/Testimonial";
@@ -10,7 +12,9 @@ const Home = () => {
         <div>
             <Slider></Slider>
             <CategorySlider></CategorySlider>
+            <ChefService></ChefService>
             <PopularMenu></PopularMenu>
+            <CallUs></CallUs>
             <Fetured></Fetured>
             <Testimonial></Testimonial>
         </div>
