@@ -4,6 +4,7 @@ const Navbar = () => {
     let options = <>
    <li><NavLink to='/'>Home</NavLink></li>
    <li><NavLink to='/menu'>Our Menu</NavLink></li>
+   <li><NavLink to='/order/salads'>Our Shop</NavLink></li>
     </>
     return (
         <div>

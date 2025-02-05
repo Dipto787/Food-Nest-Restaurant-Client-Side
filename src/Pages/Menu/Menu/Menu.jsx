@@ -12,8 +12,8 @@ const Menu = () => {
     let [menu] = UseMenu();
     let offered = menu.filter(offer => offer.category === 'offered');
     let desserts = menu.filter(offer => offer.category === 'dessert');
-    let pizza = menu.filter(offer => offer.category === 'pizza'); 
-    let salads = menu.filter(offer => offer.category === 'salad'); 
+    let pizza = menu.filter(offer => offer.category === 'pizza');
+    let salads = menu.filter(offer => offer.category === 'salad');
     let soups = menu.filter(offer => offer.category === 'soup');
     return (
         <div>
@@ -23,18 +23,18 @@ const Menu = () => {
             <MenuHero heading={'OUR MENU'} subHeading={'Would you like to try a dish?'} menuBg={menuImg2}>
             </MenuHero>
             <SectionTitle heading={"TODAY'S OFFER"} subHeading={"Don't miss"}> </SectionTitle>
-            <MenuCategory  items={offered}></MenuCategory>
+            <MenuCategory items={offered}></MenuCategory>
 
-            <MenuCategory  title={'desserts'} menuBg={dessert} items={desserts}></MenuCategory>
+            <MenuCategory title={'desserts'} menuBg={dessert} items={desserts}></MenuCategory>
+     
+            <MenuCategory title={'pizza'} menuBg={pizzas} items={pizza}></MenuCategory>
 
-            <MenuCategory  title={'pizza'} menuBg={pizzas} items={pizza}></MenuCategory>
+            <MenuCategory title={'salads'} menuBg={salad} items={salads}></MenuCategory>
 
-            <MenuCategory  title={'salads'} menuBg={salad} items={salads}></MenuCategory>
+            <MenuCategory title={'soups'} menuBg={soup} items={soups}></MenuCategory>
 
-            <MenuCategory  title={'soups'} menuBg={soup} items={soups}></MenuCategory>
 
-            
-        </div> 
+        </div >
     );
 };
 
