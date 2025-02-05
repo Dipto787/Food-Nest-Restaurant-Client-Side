@@ -9,18 +9,30 @@ import OrderTabs from './OrderTabs';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 const Order = () => {
-    let [menu] = UseMenu();
     let categories = ['salads', 'pizza', 'soups', 'desserts', 'drinks'];
+    let [perPage, setPerPages] = useState(4);
+    let [filter, setFilter] = useState('salad');
+    let [currentPage, setCurrentPage] = useState(0);
+    let [menu] = UseMenu({ filter, perPage, currentPage });
     let { category } = useParams();
     let initialIndex = categories.indexOf(category);
     let [tabs, setTabs] = useState(initialIndex);
-    let [filter, setFilter] = useState('');
     let [count, setCount] = useState(0);
     let drinks = menu.filter(offer => offer.category === 'drinks');
     let desserts = menu.filter(offer => offer.category === 'dessert');
     let pizza = menu.filter(offer => offer.category === 'pizza');
     let salads = menu.filter(offer => offer.category === 'salad');
     let soups = menu.filter(offer => offer.category === 'soup');
+    // console.log(currentPage,perPage,filter)
+    // useEffect(()=>{
+    //     axios.get(`http://localhost:5000/menu?page=${currentPage}&size=${perPage}&filter=${filter}`)
+    //     .then(res=>{ 
+    //         // setMenu(res.data);
+    //         console.log(res.data)
+
+    //     })
+    // },[currentPage,perPage,filter])
+
 
     useEffect(() => {
         axios.get(`http://localhost:5000/countFood?filter=${filter}`)
@@ -32,13 +44,11 @@ const Order = () => {
 
 
     // pagination
-    let [perPage, setPerPages] = useState(4);
-    let [currentPage,setCurrentPage]=useState(0);
     let pages = [...Array(Math.ceil(count / perPage)).keys()];
-    console.log(pages)
     let handleReturn = (e) => {
         const tabValue = e.target.getAttribute("value");
         setFilter(tabValue);
+        setCurrentPage(0);
     }
     return (
         <div>
@@ -69,8 +79,12 @@ const Order = () => {
                 </TabPanel>
             </Tabs>
             <div className='text-center m-4 '>
+                {/* <p>{currentPage}</p> */}
                 {
-                    pages.map(page =><button className='btn text-center mr-4  px-6 bg-orange-500 text-white font-bold  '>{page}</button>)
+                    pages.map(page => ( <button onClick={() => setCurrentPage(page)}
+
+                        className={`btn text-center mr-4 ${page === currentPage ? 'bg-blue-700' : ''} px-6 bg-orange-500 text-white font-bold `}>{page}</button>
+                    ))
                 }
 
             </div>
