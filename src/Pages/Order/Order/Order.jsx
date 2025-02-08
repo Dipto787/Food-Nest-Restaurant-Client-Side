@@ -23,15 +23,7 @@ const Order = () => {
     let pizza = menu.filter(offer => offer.category === 'pizza');
     let salads = menu.filter(offer => offer.category === 'salad');
     let soups = menu.filter(offer => offer.category === 'soup');
-    // console.log(currentPage,perPage,filter)
-    // useEffect(()=>{
-    //     axios.get(`http://localhost:5000/menu?page=${currentPage}&size=${perPage}&filter=${filter}`)
-    //     .then(res=>{ 
-    //         // setMenu(res.data);
-    //         console.log(res.data)
 
-    //     })
-    // },[currentPage,perPage,filter])
 
 
     useEffect(() => {
@@ -81,9 +73,9 @@ const Order = () => {
             <div className='text-center m-4 '>
                 {/* <p>{currentPage}</p> */}
                 {
-                    pages.map(page => ( <button onClick={() => setCurrentPage(page)}
+                    pages.map(page => (<button onClick={() => setCurrentPage(page)}
 
-                        className={`btn text-center mr-4 ${page === currentPage ? 'bg-blue-700' : ''} px-6 bg-orange-500 text-white font-bold `}>{page}</button>
+                        className={`btn mr-4 border-2  ${page === currentPage ? 'bg-blue-500 text-white' : ''} px-8 text-center`}>{page}</button>
                     ))
                 }
 
