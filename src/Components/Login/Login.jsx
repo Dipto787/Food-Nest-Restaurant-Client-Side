@@ -10,7 +10,7 @@ const Login = () => {
   let [valid, setValid] = useState(true);
   let location = useLocation();
   let navigate = useNavigate();
-  let from = location?.state || '/';
+  let from = location?.state?.from.pathname || '/';
   console.log(from)
   useEffect(() => {
     loadCaptchaEnginge(6)
@@ -71,11 +71,11 @@ const Login = () => {
               <label className="label">
                 <LoadCanvasTemplate></LoadCanvasTemplate>
               </label>
-              <input type="text" onBlur={handleValidCaptcha} placeholder="Write the Captcha" name="captcha" className="input input-bordered" required />
+              {/* <input type="text" onBlur={handleValidCaptcha} placeholder="Write the Captcha" name="captcha" className="input input-bordered" required /> */}
             </div>
 
             <div className="form-control mt-6">
-              <button disabled={valid} className="btn btn-primary">Login</button>
+              <button disabled={false} className="btn btn-primary">Login</button>
             </div>
           </form>
           <p>Don't have an Account? Please <Link className='text-blue-500' to='/signup'>SignUp</Link></p>

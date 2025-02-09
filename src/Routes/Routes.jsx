@@ -7,35 +7,48 @@ import Login from "../Components/Login/Login";
 import SignUp from "../Components/SignUp";
 import Secret from "../Components/Secret";
 import PrivateRoute from "./PrivateRoute";
+import DashBoard from "../Pages/Dashboard/DashBoard";
+import MyCart from "../Pages/Dashboard/MyCart";
 
-let router=createBrowserRouter([
+let router = createBrowserRouter([
     {
-        path:'/',
-        element:<Root></Root>,
-        children:[
+        path: '/',
+        element: <Root></Root>,
+        children: [
             {
-                path:'/',
-                element:<Home></Home>
+                path: '/',
+                element: <Home></Home>
             },
             {
-                path:'/menu',
-                element:<Menu></Menu>
+                path: '/menu',
+                element: <Menu></Menu>
             },
             {
-                path:'/order/:category',
-                element:<Order></Order>
+                path: '/order/:category',
+                element: <Order></Order>
             },
             {
-                path:'/login',
-                element:<Login></Login>
+                path: '/login',
+                element: <Login></Login>
             },
             {
-                path:'/signup',
-                element:<SignUp></SignUp>
+                path: '/signup',
+                element: <SignUp></SignUp>
             },
             {
-                path:'/secret',
-                element:<PrivateRoute><Secret></Secret></PrivateRoute>
+                path: '/secret',
+                element: <PrivateRoute><Secret></Secret></PrivateRoute>
+            }
+        ]
+    },
+
+    {
+        path: 'dashboard',
+        element: <DashBoard></DashBoard>,
+        children: [
+            {
+                path: 'cart',
+                element: <MyCart></MyCart>
             }
         ]
     }
