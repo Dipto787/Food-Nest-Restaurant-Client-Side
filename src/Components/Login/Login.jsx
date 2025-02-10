@@ -3,10 +3,17 @@ import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, val
 import { AuthProvider } from '../../Provider/AuthContext';
 import Swal from 'sweetalert2';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import GoogleSignIn from '../SocialSignIn/GoogleSignIn';
 
 
 const Login = () => {
-  let { signInUser } = useContext(AuthProvider);
+  let { signInUser,googleLogin } = useContext(AuthProvider);
+  let handleGoogleSignIn=()=>{
+    googleLogin()
+    .then(res=>{
+      console.log(res.user)
+    })
+  }
   let [valid, setValid] = useState(true);
   let location = useLocation();
   let navigate = useNavigate();
@@ -79,6 +86,7 @@ const Login = () => {
             </div>
           </form>
           <p>Don't have an Account? Please <Link className='text-blue-500' to='/signup'>SignUp</Link></p>
+          <GoogleSignIn></GoogleSignIn>
         </div>
       </div>
     </div>

@@ -1,27 +1,32 @@
 import { createContext, useEffect, useState } from "react";
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateCurrentUser, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateCurrentUser, updateProfile } from "firebase/auth";
 import { app } from "../Firebase/firebase.config";
 export let auth = getAuth(app);
 export let AuthProvider = createContext(null);
 const AuthContext = ({ children }) => {
     let [loading, setLoading] = useState(true);
+    let googleAuthProvider=new GoogleAuthProvider();
     let [user, setUser] = useState(null);
-    let createUser=(email,password)=>{
+    let createUser = (email, password) => {
         setLoading(true);
-        return createUserWithEmailAndPassword(auth,email,password);
+        return createUserWithEmailAndPassword(auth, email, password);
     }
-    let signInUser=(email,password)=>{
+    let signInUser = (email, password) => {
         setLoading(true);
-        return signInWithEmailAndPassword(auth,email,password);
+        return signInWithEmailAndPassword(auth, email, password);
     }
-    let logout=()=>{
+    let logout = () => {
         setLoading(true);
         return signOut(auth);
     }
-    let updateLoginUserProfile=(name,photo)=>{
-        return updateProfile(auth.currentUser,{
-            displayName:name,
-            photoURL:photo
+    let googleLogin=()=>{
+        setLoading(true);
+        return signInWithPopup(auth,googleAuthProvider);
+    }
+    let updateLoginUserProfile = (name, photo) => {
+        return updateProfile(auth.currentUser, {
+            displayName: name,
+            photoURL: photo
         })
     }
     useEffect(() => {
@@ -39,6 +44,7 @@ const AuthContext = ({ children }) => {
         createUser,
         signInUser,
         logout,
+        googleLogin,
         updateLoginUserProfile
     };
 

@@ -2,9 +2,12 @@ import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { AuthProvider } from "../Provider/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
+import UseAxiosPublic from "./hooks/UseAxiosPublic";
+import Swal from "sweetalert2";
 const SignUp = () => {
-    let {createUser,updateLoginUserProfile}=useContext(AuthProvider);
-    let navigate=useNavigate();
+    let axiosPublic = UseAxiosPublic();
+    let { createUser, updateLoginUserProfile } = useContext(AuthProvider);
+    let navigate = useNavigate();
     const {
         register,
         handleSubmit,
@@ -15,20 +18,33 @@ const SignUp = () => {
 
     let onSubmit = (e) => {
         console.log(e);
-        createUser(e.email,e.password)
-        .then(res=>{
-            let result=res.user;
-            console.log(result);
-            updateLoginUserProfile(e.name,e.PhotoUrl)
-            .then(res=>{
-                console.log(res.user)
+        createUser(e.email, e.password)
+            .then(res => {
+                let result = res.user;
+                console.log(result);
+                updateLoginUserProfile(e.name, e.PhotoUrl)
+                    .then(res => { 
+                        let userInfo={
+                            name:e.name,
+                            email:e.email
+                        }
+                        axiosPublic.post('/user',userInfo)
+                        .then(res=>{ 
+                            reset();
+                    
+                                Swal.fire({
+                                    title: "Drag me!",
+                                    icon: "success",
+                                    draggable: true
+                                });
+                                navigate('/');
+                            
+                        })
+                        })
+                        .catch(err => {
+                        console.log(err)
+                    })
             })
-            .catch(err=>{
-                console.log(err)
-            })
-            reset();
-            navigate('/');
-        })
     }
     return (
         <div className="hero bg-base-200 min-h-screen">
