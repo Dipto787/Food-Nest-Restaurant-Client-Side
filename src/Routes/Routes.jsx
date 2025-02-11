@@ -10,6 +10,7 @@ import PrivateRoute from "./PrivateRoute";
 import DashBoard from "../Pages/Dashboard/DashBoard";
 import MyCart from "../Pages/Dashboard/MyCart";
 import AllUser from "../Pages/Dashboard/AllUser";
+import AdminRoute from "../Pages/Dashboard/AdminRoute";
 
 let router = createBrowserRouter([
     {
@@ -45,15 +46,15 @@ let router = createBrowserRouter([
 
     {
         path: 'dashboard',
-        element:<PrivateRoute><DashBoard></DashBoard></PrivateRoute>,
+        element: <PrivateRoute><DashBoard></DashBoard></PrivateRoute>,
         children: [
             {
                 path: 'cart',
                 element: <MyCart></MyCart>
             },
             {
-                path:'allUser',
-                element:<AllUser></AllUser>
+                path: 'allUser',
+                element: <AdminRoute> <AllUser></AllUser></AdminRoute>
             }
         ]
     }

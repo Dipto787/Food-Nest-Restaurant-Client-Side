@@ -2,9 +2,10 @@ import { FaAd, FaBook, FaHome, FaList, FaShoppingCart, FaUser, FaUtensils } from
 import { FaCalendar, FaShop, FaStreetView } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { NavLink, Outlet } from "react-router-dom";
+import UseAdmin from "../../Components/hooks/UseAdmin";
 
 const DashBoard = () => {
-    let isAdmin = true;
+    let [isAdmin] = UseAdmin();
     return (
         <div className="flex text-black">
             <div className="w-64 min-h-screen bg-orange-400 ">

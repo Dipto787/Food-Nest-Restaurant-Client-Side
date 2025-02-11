@@ -30,8 +30,7 @@ const SignUp = () => {
                         }
                         axiosPublic.post('/user',userInfo)
                         .then(res=>{ 
-                            reset();
-                    
+                            reset(); 
                                 Swal.fire({
                                     title: "Drag me!",
                                     icon: "success",
