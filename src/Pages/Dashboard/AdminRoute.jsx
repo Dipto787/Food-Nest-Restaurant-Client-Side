@@ -5,11 +5,11 @@ import { useContext } from "react";
 import { AuthProvider } from "../../Provider/AuthContext";
 
 
-const AdminRoute = ({children}) => {
-    let {user,loading} = UseAuth(); 
-    let [isAdmin] = UseAdmin();
+const AdminRoute = ({ children }) => {
+    let { user, loading } = UseAuth();
+    let [isAdmin, isPending] = UseAdmin();
     let location = useLocation();
-    if (loading) {
+    if (loading || isPending) {
         return <h1>Loading.......</h1>
     }
     if (user && isAdmin) {

@@ -4,7 +4,7 @@ import UseAxiosSecure from "../../Components/hooks/UseAxiosSecure";
 import Swal from "sweetalert2";
 
 const MyCart = () => {
-    let [cart,refetch] = UseCart();
+    let [cart, refetch] = UseCart();
     let axiosSecure = UseAxiosSecure();
     let totalPrice = cart.reduce((total, item) => total + item.price, 0);
     let handleDelete = (e) => {
@@ -17,17 +17,17 @@ const MyCart = () => {
             cancelButtonColor: "#d33",
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
-            if (result.isConfirmed) { 
+            if (result.isConfirmed) {
                 axiosSecure.delete(`/cart/${e}`)
-                .then(res=>{
-                    console.log(res.data)
-                    Swal.fire({
-                        title: "Deleted!",
-                        text: "Your file has been deleted.",
-                        icon: "success"
-                    });
-                    refetch();
-                })
+                    .then(res => {
+                        console.log(res.data)
+                        Swal.fire({
+                            title: "Deleted!",
+                            text: "Your file has been deleted.",
+                            icon: "success"
+                        });
+                        refetch();
+                    })
             }
         });
     };
@@ -55,11 +55,11 @@ const MyCart = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {cart.map(item => (
+                            {cart.map((item, index) => (
                                 <tr>
                                     <th>
                                         <label>
-                                            <input type="checkbox" className="checkbox" />
+                                            {index + 1}
                                         </label>
                                     </th>
                                     <td>
@@ -79,7 +79,7 @@ const MyCart = () => {
                                     <td className="font-bold">{item.name}</td>
                                     <td>{item.price}</td>
                                     <th>
-                                        <button onClick={()=>handleDelete(item._id)} className="btn btn-ghost text-red-500 font-bold btn-xs"><FaTrashAlt></FaTrashAlt></button>
+                                        <button onClick={() => handleDelete(item._id)} className="btn btn-ghost text-red-500 font-bold btn-xs"><FaTrashAlt></FaTrashAlt></button>
                                     </th>
                                 </tr>
                             ))}
