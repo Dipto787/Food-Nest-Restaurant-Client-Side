@@ -12,6 +12,8 @@ import MyCart from "../Pages/Dashboard/MyCart";
 import AllUser from "../Pages/Dashboard/AllUser";
 import AdminRoute from "../Pages/Dashboard/AdminRoute";
 import AddItems from "../Pages/Dashboard/AddItems";
+import ManageAllItems from "../Pages/Dashboard/ManageAllItems";
+import UpdateItems from "../Pages/Dashboard/UpdateItems";
 
 let router = createBrowserRouter([
     {
@@ -58,8 +60,17 @@ let router = createBrowserRouter([
                 element: <AdminRoute> <AllUser></AllUser></AdminRoute>
             },
             {
-                path:'addItems',
-                element:<AdminRoute><AddItems></AddItems></AdminRoute>
+                path: 'addItems',
+                element: <AdminRoute><AddItems></AddItems></AdminRoute>
+            },
+            {
+                path: 'manageItems',
+                element: <AdminRoute><ManageAllItems></ManageAllItems></AdminRoute>
+            },
+            {
+                path: 'updateItem/:id',
+                element: <AdminRoute><UpdateItems></UpdateItems></AdminRoute>,
+                loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
             }
         ]
     }

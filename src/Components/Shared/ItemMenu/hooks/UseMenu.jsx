@@ -1,24 +1,27 @@
-import { useEffect, useState } from "react";
+
+import { useQuery } from "@tanstack/react-query";
+import UseAxiosPublic from "../../../hooks/UseAxiosPublic";
 
 const UseMenu = ({ filter = '', perPage = 4, currentPage = 0 } = {}) => {
-    let [menu, setMenu] = useState([]);
-    let [loading, setLoading] = useState(true);
-    useEffect(() => {
-        let url = '';
-        if (filter) {
-            url = `http://localhost:5000/menu?page=${currentPage}&size=${perPage}&filter=${filter}`
-        } else {
-            url = `http://localhost:5000/menu`
-        }
-        fetch(url)
-            .then(res => res.json())
-            .then(data => {
-                setMenu(data);
-                setLoading(false);
-            })
-    }, [filter, perPage, currentPage])
+    let axiosPublic = UseAxiosPublic();
 
-    return [menu, loading];
+
+    let { data: menu = [], refetch } = useQuery({
+        queryKey: ['menu', filter, perPage, currentPage],
+        queryFn: async () => {
+            let urls = '';
+            if (filter) {
+                urls = `http://localhost:5000/menu?page=${currentPage}&size=${perPage}&filter=${filter}`;
+            } else {
+                urls = `http://localhost:5000/menu`
+            }
+            let res = await axiosPublic.get(urls);
+            console.log(res.data)
+            return res.data;
+
+        }
+    })
+    return [menu, refetch]
 };
 
 export default UseMenu;

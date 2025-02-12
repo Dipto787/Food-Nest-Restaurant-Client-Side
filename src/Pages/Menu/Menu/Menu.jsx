@@ -9,7 +9,7 @@ import UseMenu from '../../../Components/Shared/ItemMenu/hooks/UseMenu';
 import MenuCategory from './MenuCategory';
 import SectionTitle from '../../../Components/Shared/SectionTitle/SectionTitle';
 const Menu = () => {
-    let [menu] = UseMenu();
+    let [menu,refetch] = UseMenu(); 
     let offered = menu.filter(offer => offer.category === 'offered');
     let desserts = menu.filter(offer => offer.category === 'dessert');
     let pizza = menu.filter(offer => offer.category === 'pizza');
