@@ -14,6 +14,7 @@ import AdminRoute from "../Pages/Dashboard/AdminRoute";
 import AddItems from "../Pages/Dashboard/AddItems";
 import ManageAllItems from "../Pages/Dashboard/ManageAllItems";
 import UpdateItems from "../Pages/Dashboard/UpdateItems";
+import PayMentGetWay from "../Pages/Dashboard/PayMentGetWay";
 
 let router = createBrowserRouter([
     {
@@ -55,6 +56,11 @@ let router = createBrowserRouter([
                 path: 'cart',
                 element: <MyCart></MyCart>
             },
+            {
+                path:'payment',
+                element:<PayMentGetWay></PayMentGetWay>
+            }
+            ,
             {
                 path: 'allUser',
                 element: <AdminRoute> <AllUser></AllUser></AdminRoute>

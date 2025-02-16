@@ -8,8 +8,7 @@ import { Link } from "react-router-dom";
 
 const ManageAllItems = () => {
     let [menu, refetch] = UseMenu();
-    console.log(menu)
-    
+    console.log(menu) 
     let axiosSecure = UseAxiosSecure();
     let handleDeleteItem = (_id) => {
         Swal.fire({

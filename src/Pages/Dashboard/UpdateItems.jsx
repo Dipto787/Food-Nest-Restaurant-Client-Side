@@ -53,7 +53,7 @@ const UpdateItems = () => {
                     <div className="label">
                         <span className="label-text">Recipe name*</span>
                     </div>
-                    <input defaultValue={name} type="text" placeholder="Recipe name*" {...register('name', { required: true })} className="input input-bordered w-full " />
+                    <input defaultValue={name} type="text" placeholder="Recipe name*" {...register('name')} className="input input-bordered w-full " />
 
                 </label>
 
@@ -77,7 +77,7 @@ const UpdateItems = () => {
                         <div className="label">
                             <span className="label-text"> price*</span>
                         </div>
-                        <input defaultValue={price} type="number" placeholder="price" {...register('price', { required: true })} className="input input-bordered w-full " />
+                        <input defaultValue={price} type="number" placeholder="price" {...register('price')} className="input input-bordered w-full " />
 
                     </label>
                 </div>
