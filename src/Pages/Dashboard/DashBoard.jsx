@@ -8,7 +8,7 @@ const DashBoard = () => {
     let [isAdmin] = UseAdmin();
     return (
         <div className="flex text-black">
-            <div className="w-64 min-h-screen bg-orange-400 ">
+            <div className="w-64 min-h-screen bg-orange-400">
                 <ul className="menu p-4">
                     {
                         isAdmin ?
@@ -64,7 +64,14 @@ const DashBoard = () => {
                                 </li>
 
                                 <li>
-                                    <NavLink className="btn" to={'/dashboard/cart'}>
+                                    <NavLink className="" to={'/dashboard/paymentHistory'}>
+                                        <FaShoppingCart></FaShoppingCart>
+                                        Payment History
+                                    </NavLink>
+                                </li>
+
+                                <li>
+                                    <NavLink className="" to={'/dashboard/cart'}>
                                         <FaShoppingCart></FaShoppingCart>
                                         My Cart
                                     </NavLink>

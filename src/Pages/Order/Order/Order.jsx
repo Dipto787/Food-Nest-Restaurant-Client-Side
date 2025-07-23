@@ -17,7 +17,10 @@ const Order = () => {
     let { category } = useParams();
     let initialIndex = categories.indexOf(category);
     let [tabs, setTabs] = useState(initialIndex);
+
     let [count, setCount] = useState(0);
+    
+    
     let drinks = menu.filter(offer => offer.category === 'drinks');
     let desserts = menu.filter(offer => offer.category === 'dessert');
     let pizza = menu.filter(offer => offer.category === 'pizza');
@@ -36,7 +39,10 @@ const Order = () => {
 
 
     // pagination
-    let pages = [...Array(Math.ceil(count / perPage)).keys()];
+    let pages = [...Array(Math.ceil(count / perPage)).keys()]; 
+
+
+
     let handleReturn = (e) => {
         const tabValue = e.target.getAttribute("value");
         setFilter(tabValue);
@@ -80,6 +86,7 @@ const Order = () => {
                 }
 
             </div>
+  
 
         </div>
     );

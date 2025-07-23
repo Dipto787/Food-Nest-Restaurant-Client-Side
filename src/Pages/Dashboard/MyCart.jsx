@@ -37,7 +37,7 @@ const MyCart = () => {
             <div className="flex justify-evenly">
                 <h1 className="text-4xl">Items : {cart.length}</h1>
                 <h1 className="text-4xl">Total Price : {totalPrice}</h1>
-              { cart.length?<NavLink to={`/dashboard/payment`}>  <button className="btn btn-primary">Pay</button></NavLink>:<button disabled className="btn btn-primary">Pay</button>}
+                {cart.length ? <NavLink to={`/dashboard/payment`}>  <button className="btn btn-primary">Pay</button></NavLink> : <button disabled className="btn btn-primary">Pay</button>}
             </div>
             <div>
                 <div className="overflow-x-auto">

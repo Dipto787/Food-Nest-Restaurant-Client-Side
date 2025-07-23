@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Das",
+    "title": "Head Chef",
+    "experience": "15 years",
+    "specialty": "Italian & Continental",
+    "signature_dish": "Truffle Cream Pasta",
+    "bio": "Arjun is a culinary expert known for his rich experience and precision in Italian cuisine, blending tradition with modern flair.",
+    "gender": "male",
+    "image": "https://i.ibb.co/k2MYTmy9/istockphoto-1136638047-612x612.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sen",
+    "title": "Pastry Chef",
+    "experience": "8 years",
+    "specialty": "Desserts & Cakes",
+    "signature_dish": "Strawberry Cheesecake",
+    "bio": "Priya crafts desserts that melt in the mouth. Her artistic presentation and delicious flavors make her cakes crowd favorites.",
+    "gender": "female",
+    "image": "https://i.ibb.co/kVQDjP1z/istockphoto-690761112-612x612.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ravi Sharma",
+    "title": "Sous Chef",
+    "experience": "10 years",
+    "specialty": "Chinese & Thai",
+    "signature_dish": "Dragon Chicken",
+    "bio": "Ravi brings fire and flavor together in every dish, specializing in fiery Asian meals loved by spice-lovers.",
+    "gender": "male",
+    "image": "https://i.ibb.co/qYvtfVcS/istockphoto-877309720-612x612.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Anjali Mehra",
+    "title": "Grill Master",
+    "experience": "6 years",
+    "specialty": "BBQ & Tandoori",
+    "signature_dish": "Tandoori Chicken",
+    "bio": "Anjali’s smoky grilled dishes bring out the authentic taste of traditional Indian BBQ with modern techniques.",
+    "gender": "female",
+    "image": "https://i.ibb.co/p64psrwx/istockphoto-1389857295-612x612.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Vikram Roy",
+    "title": "Curry Specialist",
+    "experience": "12 years",
+    "specialty": "Bengali & North Indian Cuisine",
+    "signature_dish": "Mutton Rogan Josh",
+    "bio": "Vikram recreates the rich and bold flavors of Indian curries with traditional spice mixes and slow-cooked techniques.",
+    "gender": "male",
+    "image": "https://i.ibb.co/kgStD7Q8/pexels-miquel-ferran-gomez-figueroa-2172703-3814446.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Riya Chakraborty",
+    "title": "Salad Expert",
+    "experience": "7 years",
+    "specialty": "Vegan & Wellness Meals",
+    "signature_dish": "Kale & Avocado Detox Bowl",
+    "bio": "Riya focuses on health-first cooking, crafting colorful and nutritious bowls loved by fitness-focused foodies.",
+    "gender": "female",
+    "image": "https://i.ibb.co/xSMctPpM/istockphoto-639911192-612x612.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Karan Nandi",
+    "title": "Breakfast Chef",
+    "experience": "9 years",
+    "specialty": "Continental Breakfasts",
+    "signature_dish": "Stuffed Masala Omelet",
+    "bio": "Karan starts the day with perfection, serving comforting yet exciting breakfast dishes from all over the world.",
+    "gender": "male",
+    "image": "https://i.ibb.co/p6PXz2XM/rc-cf-FMh5o5m5-N9-E-unsplash.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Neha Verma",
+    "title": "Fusion Specialist",
+    "experience": "11 years",
+    "specialty": "Indo-Italian Fusion",
+    "signature_dish": "Paneer Tikka Pizza",
+    "bio": "Neha brings global tastes together, combining India’s bold flavors with European techniques to create unique dishes.",
+    "gender": "female",
+    "image": "https://i.ibb.co/21FTFrR2/istockphoto-1298088270-612x612.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Amitava Ghosh",
+    "title": "Seafood Expert",
+    "experience": "13 years",
+    "specialty": "Bengali Coastal Cuisine",
+    "signature_dish": "Shorshe Ilish",
+    "bio": "Amitava uses fresh fish and mustard-based sauces to deliver authentic Bengali seafood loved across generations.",
+    "gender": "male",
+    "image": "https://i.ibb.co/Xf9612hw/louis-hansel-v3-Ol-BE6-fh-U-unsplash.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Sneha Mukherjee",
+    "title": "Kids Meal Designer",
+    "experience": "5 years",
+    "specialty": "Healthy & Fun Kids Meals",
+    "signature_dish": "Mini Veggie Wraps",
+    "bio": "Sneha blends creativity and care in every dish, designing balanced meals that kids enjoy and parents trust.",
+    "gender": "female",
+    "image": "https://i.ibb.co/1JdbT0mn/johnathan-macedo-4-NQEvx-W2-4w-unsplash.jpg"
+  }
+]

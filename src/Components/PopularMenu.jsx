@@ -12,7 +12,7 @@ const PopularMenu = () => {
         <div className="mb-12">
             <SectionTitle
                 subHeading={'---Check it out---'}
-                heading={'FROM OUR MENU'}
+                heading={'OUR MENU'}
             ></SectionTitle>
             <div className="grid md:grid-cols-2 gap-10">
                 {

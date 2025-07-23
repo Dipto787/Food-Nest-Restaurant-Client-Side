@@ -23,24 +23,24 @@ const SignUp = () => {
                 let result = res.user;
                 console.log(result);
                 updateLoginUserProfile(e.name, e.PhotoUrl)
-                    .then(res => { 
-                        let userInfo={
-                            name:e.name,
-                            email:e.email
+                    .then(res => {
+                        let userInfo = {
+                            name: e.name,
+                            email: e.email
                         }
-                        axiosPublic.post('/user',userInfo)
-                        .then(res=>{ 
-                            reset(); 
+                        axiosPublic.post('/user', userInfo)
+                            .then(res => {
+                                reset();
                                 Swal.fire({
                                     title: "Drag me!",
                                     icon: "success",
                                     draggable: true
                                 });
                                 navigate('/');
-                            
-                        })
-                        })
-                        .catch(err => {
+
+                            })
+                    })
+                    .catch(err => {
                         console.log(err)
                     })
             })

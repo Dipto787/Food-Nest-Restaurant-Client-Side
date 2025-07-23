@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import MenuHero from './MenuHero';
 import menuImg2 from '../../../assets/menu/banner3.jpg'
-import dessert from '../../../assets/menu/dessert-bg.jpeg'
+import dessert from '../../../assets/menu/dessert-bg.jpg'
 import pizzas from '../../../assets/menu/pizza-bg.jpg'
 import salad from '../../../assets/menu/salad-bg.jpg'
 import soup from '../../../assets/menu/soup-bg.jpg'
@@ -18,7 +18,7 @@ const Menu = () => {
     return (
         <div>
             <Helmet>
-                <title>Bistro Boss | Menu</title>
+                <title>Food Nest | Menu</title>
             </Helmet>
             <MenuHero heading={'OUR MENU'} subHeading={'Would you like to try a dish?'} menuBg={menuImg2}>
             </MenuHero>

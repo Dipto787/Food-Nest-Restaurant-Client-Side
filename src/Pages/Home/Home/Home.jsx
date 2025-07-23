@@ -6,18 +6,20 @@ import PopularMenu from "../../../Components/PopularMenu";
 import Testimonial from "../../../Components/Testimonial";
 import CategorySlider from "../CategorySlider/CategorySlider";
 import Slider from "../Slider/Slider";
+import MeetOurChefs from "../MeetOurChefs";
 
 
 const Home = () => {
     return (
         <div>
             <Helmet>
-                <title>Bistro Boss | Home</title>
+                <title>Food Nest | Home</title>
             </Helmet>
             <Slider></Slider>
             <CategorySlider></CategorySlider>
             <ChefService></ChefService>
             <PopularMenu></PopularMenu>
+            <MeetOurChefs></MeetOurChefs>
             <CallUs></CallUs>
             <Fetured></Fetured>
             <Testimonial></Testimonial>

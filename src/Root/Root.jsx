@@ -11,7 +11,10 @@ const Root = () => {
             {
                 unable || <Navbar></Navbar>
             }
-            <Outlet></Outlet>
+            <div className="max-w-screen-xl mx-auto">
+                <Outlet></Outlet>
+            </div>
+
             {
                 unable || <Footer></Footer>
             }

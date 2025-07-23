@@ -17,7 +17,7 @@ const Testimonial = () => {
     }, [])
     return (
         <div>
-            <SectionTitle subHeading={'What Our Clients Say'} heading={'TESTIMONIALS'}></SectionTitle>
+            <SectionTitle subHeading={'What Our customers Say'} heading={'customer reviews'}></SectionTitle>
 
             <div>
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">

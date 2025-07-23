@@ -15,6 +15,9 @@ import AddItems from "../Pages/Dashboard/AddItems";
 import ManageAllItems from "../Pages/Dashboard/ManageAllItems";
 import UpdateItems from "../Pages/Dashboard/UpdateItems";
 import PayMentGetWay from "../Pages/Dashboard/PayMentGetWay";
+import PaymentHistory from "../Pages/Dashboard/PaymentHistory";
+import AdminHome from "../Pages/Dashboard/AdminHome";
+import UserHome from "../Pages/Dashboard/UserHome";
 
 let router = createBrowserRouter([
     {
@@ -57,13 +60,25 @@ let router = createBrowserRouter([
                 element: <MyCart></MyCart>
             },
             {
-                path:'payment',
-                element:<PayMentGetWay></PayMentGetWay>
+                path:'userHome',
+                element:<UserHome></UserHome>
+            },
+            {
+                path: 'paymentHistory',
+                element: <PaymentHistory></PaymentHistory>
+            },
+            {
+                path: 'payment',
+                element: <PayMentGetWay></PayMentGetWay>
             }
             ,
             {
                 path: 'allUser',
                 element: <AdminRoute> <AllUser></AllUser></AdminRoute>
+            },
+            {
+                path:'adminHome',
+                element:<AdminRoute><AdminHome></AdminHome></AdminRoute>
             },
             {
                 path: 'addItems',
