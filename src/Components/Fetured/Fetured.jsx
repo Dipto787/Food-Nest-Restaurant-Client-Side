@@ -1,20 +1,23 @@
 import SectionTitle from "../Shared/SectionTitle/SectionTitle";
-import featured from '../../assets/home/featured.png'
-import './Featured.css'
+import featured from '../../assets/home/featured.jpg'
+import featureBg from '../../assets/home/fetaured bg.jpg'
 const Fetured = () => {
     return (
-        <div className="featuredItem bg-fixed my-20  ">
-            <SectionTitle subHeading={'Check it out'} heading={'FROM OUR MENU'}>
-            </SectionTitle>
-            <div className="md:flex justify-center bg-green-300  rounded-lg bg-opacity-70 pt-12 items-center pb-20 px-36">
-                <div>
-                    <img src={featured} alt="" />
-                </div>
-                <div className="md:ml-20">
-                    <p>March 20, 2023</p>
-                    <p className="uppercase">WHERE CAN I GET SOME?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate facere, deserunt dolores maiores quod nobis quas quasi. Eaque repellat recusandae ad laudantium tempore consequatur consequuntur omnis ullam maxime tenetur.</p>
-                    <button className="btn btn-primary px-10 font-bold border-0 border-b-4 my-7">Read More</button>
+        <div style={{ backgroundImage: `url(${featureBg})` }} className="featuredItem  w-full bg-no-repeat bg-opacity-80  bg-fixed bg-center my-20  ">
+            <div className="bg-black pt-5 text-white bg-opacity-70">
+                <SectionTitle subHeading={'Check it out'} heading={'✨ Chef’s Specials Uncovered'}>
+                </SectionTitle>
+                <div className="md:flex  justify-center      rounded-lg    pt-1 items-center pb-20 px-4">
+              
+                        <img className="shadow-2xl w-[600px] opacity-85" src={featured} alt="" />
+                
+                    <div className="md:ml-20 space-y-3">
+                        <p>July 18, 2023</p>
+                        <p className="uppercase text-lg">CRAVING SOMETHING UNFORGETTABLE?</p>
+                        <p>If your taste buds are searching for something extraordinary, you’re in the right place. Our kitchen is a destination for flavor lovers—where every dish is a celebration of passion, quality, and creativity.
+                            So, if you’re craving something unforgettable, stop by and let us serve you more than just food—let us serve you happiness on a plate.</p>
+                        <button className="btn px-8 btn-outline text-orange-300 uppercase font-bold border-0 border-b-4 my-4">Read More</button>
+                    </div>
                 </div>
             </div>
         </div>

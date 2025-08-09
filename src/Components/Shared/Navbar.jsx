@@ -11,19 +11,19 @@ const Navbar = () => {
     let options = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/menu'>Our Menu</NavLink></li>
-        <li><NavLink to='/order/salads'>Our Shop</NavLink></li>
+        <li><NavLink to='/order?category=burger'>Shop Now</NavLink></li>
         {
             user && isAdmin && <li><NavLink to={'/dashboard/adminHome'}>DashBoard</NavLink></li>
         }
         {
             user && !isAdmin && <li><NavLink to={'/dashboard/userHome'}>DashBoard</NavLink></li>
         }
-        <li>
+        {/* <li>
             <NavLink className="btn border-none" to={'/dashboard/cart'}>
                 <FaCartShopping />
                 <div className="badge badge-secondary">+{cart.length}</div>
             </NavLink>
-        </li>
+        </li> */}
 
         {
             user ? <>

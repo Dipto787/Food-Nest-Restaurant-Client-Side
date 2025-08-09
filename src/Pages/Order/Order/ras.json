@@ -1,0 +1,1622 @@
+[
+  {
+    "_id": "6893a152768b28ffdcf49bff",
+    "name": "Burger Item 1",
+    "category": "Burger",
+    "img": "https://i.ibb.co.com/CppyJkv0/haseeb-jamil-J9l-D6-FS6-cs-unsplash.jpg",
+    "price": 220,
+    "rating": 3.3,
+    "details": {
+      "ingredients": [
+        "Cheese",
+        "Tomato",
+        "Lettuce",
+        "Sauce"
+      ],
+      "recipe": "Prepare the dough or base, layer it with sauce, add toppings, and bake at 180°C for 20 minutes."
+    },
+    "description": " This delicious burger is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c00",
+    "name": "Burger Item 2",
+    "category": "Burger",
+    "img": "https://i.ibb.co.com/TBSrw4QL/ilya-mashkov-qxb-JUr9-Rq-I-unsplash.jpg",
+    "price": 466,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Mushrooms",
+        "Bell Peppers",
+        "Salt",
+        "Olive Oil"
+      ],
+      "recipe": "Heat oil in a pan, add spices, and stir-fry the vegetables. Add your protein and cook for 15 minutes. Serve garnished with herbs."
+    },
+    "description": " This delicious burger is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c01",
+    "name": "Burger Item 3",
+    "category": "Burger",
+    "img": "https://i.ibb.co.com/B26mDGRm/allen-rad-OCHMc-VOWRAU-unsplash.jpg",
+    "price": 184,
+    "rating": 4.5,
+    "details": {
+      "ingredients": [
+        "Cheese",
+        "Tomato",
+        "Lettuce",
+        "Sauce"
+      ],
+      "recipe": "Boil the noodles for 6–8 minutes, stir fry with your selected vegetables and meat, and season with soy sauce and sesame oil."
+    },
+    "description": " This delicious burger is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c02",
+    "name": "Burger Item 4",
+    "category": "Burger",
+    "img": "https://i.ibb.co.com/SXh1xGFz/david-foodphototasty-Fn6d-PYt-PUMc-unsplash.jpg",
+    "price": 393,
+    "rating": 3.2,
+    "details": {
+      "ingredients": [
+        "Mushrooms",
+        "Bell Peppers",
+        "Salt",
+        "Olive Oil"
+      ],
+      "recipe": "Start by washing all vegetables. Cook the meat until tender and season with salt and pepper. Assemble ingredients with sauce and serve hot."
+    },
+    "description": " This delicious burger is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c03",
+    "name": "Burger Item 5",
+    "category": "Burger",
+    "img": "https://i.ibb.co.com/kgZtmryZ/amirali-mirhashemian-sc5s-TPMr-Vfk-unsplash.jpg",
+    "price": 128,
+    "rating": 4.1,
+    "details": {
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Pepper"
+      ],
+      "recipe": "Heat oil in a pan, add spices, and stir-fry the vegetables. Add your protein and cook for 15 minutes. Serve garnished with herbs."
+    },
+    "description": " This delicious burger is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c04",
+    "name": "Pizza Item 1",
+    "category": "Pizza",
+    "img": "https://i.ibb.co.com/sJy9BNXm/pinar-kucuk-Ae7j-QFDTPk4-unsplash.jpg",
+    "price": 186,
+    "rating": 5,
+    "details": {
+      "ingredients": [
+        "Chicken",
+        "Basil",
+        "Oregano",
+        "Spices"
+      ],
+      "recipe": "Boil the noodles for 6–8 minutes, stir fry with your selected vegetables and meat, and season with soy sauce and sesame oil."
+    },
+    "description": " This delicious pizza is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c05",
+    "name": "Pizza Item 2",
+    "category": "Pizza",
+    "img": "https://i.ibb.co.com/WWCp4tnH/chad-montano-Mq-T0asuo-Ic-U-unsplash.jpg",
+    "price": 105,
+    "rating": 4.1,
+    "details": {
+      "ingredients": [
+        "Chicken",
+        "Basil",
+        "Oregano",
+        "Spices"
+      ],
+      "recipe": "Boil the noodles for 6–8 minutes, stir fry with your selected vegetables and meat, and season with soy sauce and sesame oil."
+    },
+    "description": " This delicious pizza is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c06",
+    "name": "Pizza Item 3",
+    "category": "Pizza",
+    "img": "https://i.ibb.co.com/G4Yp5Hr1/alan-hardman-SU1-LFoe-EUkk-unsplash.jpg",
+    "price": 205,
+    "rating": 3.4,
+    "details": {
+      "ingredients": [
+        "Carrot",
+        "Cucumber",
+        "Mint",
+        "Honey"
+      ],
+      "recipe": "Prepare the dough or base, layer it with sauce, add toppings, and bake at 180°C for 20 minutes."
+    },
+    "description": " This delicious pizza is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c07",
+    "name": "Pizza Item 4",
+    "category": "Pizza",
+    "img": "https://i.ibb.co.com/1GFL57k4/ivan-torres-MQUqbmsz-GGM-unsplash.jpg",
+    "price": 114,
+    "rating": 4.2,
+    "details": {
+      "ingredients": [
+        "Chicken",
+        "Basil",
+        "Oregano",
+        "Spices"
+      ],
+      "recipe": "Blend all the ingredients into a fine paste or juice and refrigerate for 30 minutes before serving cold."
+    },
+    "description": " This delicious pizza is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c08",
+    "name": "Pizza Item 5",
+    "category": "Pizza",
+    "img": "https://i.ibb.co.com/Qjp5GFBB/saundarya-srinivasan-60nz-TP7-h-MQ-unsplash.jpg",
+    "price": 261,
+    "rating": 4.9,
+    "details": {
+      "ingredients": [
+        "Chicken",
+        "Basil",
+        "Oregano",
+        "Spices"
+      ],
+      "recipe": "Prepare the dough or base, layer it with sauce, add toppings, and bake at 180°C for 20 minutes."
+    },
+    "description": " This delicious pizza is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c09",
+    "name": "Dessert Item 1",
+    "category": "Dessert",
+    "img": "https://i.ibb.co.com/WW1pC5st/camila-melim-y-HQf-Z9-Tu-Zn4-unsplash.jpg",
+    "price": 384,
+    "rating": 3.1,
+    "details": {
+      "ingredients": [
+        "Mushrooms",
+        "Bell Peppers",
+        "Salt",
+        "Olive Oil"
+      ],
+      "recipe": "Start by washing all vegetables. Cook the meat until tender and season with salt and pepper. Assemble ingredients with sauce and serve hot."
+    },
+    "description": " This delicious dessert is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c0a",
+    "name": "Dessert Item 2",
+    "category": "Dessert",
+    "img": "https://i.ibb.co.com/0pKfNWyZ/deva-williamson-S2jw81lfr-G0-unsplash.jpg",
+    "price": 324,
+    "rating": 4.9,
+    "details": {
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Pepper"
+      ],
+      "recipe": "Prepare the dough or base, layer it with sauce, add toppings, and bake at 180°C for 20 minutes."
+    },
+    "description": " This delicious dessert is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c0b",
+    "name": "Dessert Item 3",
+    "category": "Dessert",
+    "img": "https://i.ibb.co.com/VckGmcTk/kobby-mendez-id-Tw-DKt2j2o-unsplash.jpg",
+    "price": 469,
+    "rating": 4.7,
+    "details": {
+      "ingredients": [
+        "Carrot",
+        "Cucumber",
+        "Mint",
+        "Honey"
+      ],
+      "recipe": "Start by washing all vegetables. Cook the meat until tender and season with salt and pepper. Assemble ingredients with sauce and serve hot."
+    },
+    "description": " This delicious dessert is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c0c",
+    "name": "Dessert Item 4",
+    "category": "Dessert",
+    "img": "https://i.ibb.co.com/twYS6n9J/heather-barnes-Wb-Zesfqw-R-A-unsplash.jpg",
+    "price": 305,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Pepper"
+      ],
+      "recipe": "Heat oil in a pan, add spices, and stir-fry the vegetables. Add your protein and cook for 15 minutes. Serve garnished with herbs."
+    },
+    "description": " This delicious dessert is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c0d",
+    "name": "Dessert Item 5",
+    "category": "Dessert",
+    "img": "https://i.ibb.co.com/Zpnf6D4f/kobby-mendez-q54-Oxq44-MZs-unsplash.jpg",
+    "price": 325,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Chicken",
+        "Basil",
+        "Oregano",
+        "Spices"
+      ],
+      "recipe": "Start by washing all vegetables. Cook the meat until tender and season with salt and pepper. Assemble ingredients with sauce and serve hot."
+    },
+    "description": " This delicious dessert is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c0e",
+    "name": "Salad Item 1",
+    "category": "Salad",
+    "img": "https://i.ibb.co.com/hF1nnSkJ/anh-nguyen-kc-A-c3f-3-FE-unsplash.jpg",
+    "price": 415,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Cheese",
+        "Tomato",
+        "Lettuce",
+        "Sauce"
+      ],
+      "recipe": "Start by washing all vegetables. Cook the meat until tender and season with salt and pepper. Assemble ingredients with sauce and serve hot."
+    },
+    "description": " This delicious salad is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c0f",
+    "name": "Salad Item 2",
+    "category": "Salad",
+    "img": "https://i.ibb.co.com/wZCBTQpg/yoav-aziz-Ai-HJi-RCw-B3w-unsplash.jpg",
+    "price": 250,
+    "rating": 4.6,
+    "details": {
+      "ingredients": [
+        "Mushrooms",
+        "Bell Peppers",
+        "Salt",
+        "Olive Oil"
+      ],
+      "recipe": "Heat oil in a pan, add spices, and stir-fry the vegetables. Add your protein and cook for 15 minutes. Serve garnished with herbs."
+    },
+    "description": " This delicious salad is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c10",
+    "name": "Salad Item 3",
+    "category": "Salad",
+    "img": "https://i.ibb.co.com/7N2CY75j/tania-melnyczuk-xe-Tv9-N2-Fj-XA-unsplash.jpg",
+    "price": 154,
+    "rating": 3.4,
+    "details": {
+      "ingredients": [
+        "Chicken",
+        "Basil",
+        "Oregano",
+        "Spices"
+      ],
+      "recipe": "Start by washing all vegetables. Cook the meat until tender and season with salt and pepper. Assemble ingredients with sauce and serve hot."
+    },
+    "description": " This delicious salad is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c11",
+    "name": "Salad Item 4",
+    "category": "Salad",
+    "img": "https://i.ibb.co.com/HpNQ4NCf/nadine-primeau-ft-Wfohtj-Nw-unsplash.jpg",
+    "price": 280,
+    "rating": 4.2,
+    "details": {
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Pepper"
+      ],
+      "recipe": "Boil the noodles for 6–8 minutes, stir fry with your selected vegetables and meat, and season with soy sauce and sesame oil."
+    },
+    "description": " This delicious salad is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c12",
+    "name": "Salad Item 5",
+    "category": "Salad",
+    "img": "https://i.ibb.co.com/prR3V6M1/anna-pelzer-IGf-IGP5-ONV0-unsplash.jpg",
+    "price": 228,
+    "rating": 4.8,
+    "details": {
+      "ingredients": [
+        "Mushrooms",
+        "Bell Peppers",
+        "Salt",
+        "Olive Oil"
+      ],
+      "recipe": "Heat oil in a pan, add spices, and stir-fry the vegetables. Add your protein and cook for 15 minutes. Serve garnished with herbs."
+    },
+    "description": " This delicious salad is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c13",
+    "name": "Drink Item 1",
+    "category": "Drink",
+    "img": "https://i.ibb.co.com/rRjnc6tz/shenggeng-lin-Xo-N3v3-Ge7-EE-unsplash.jpg",
+    "price": 493,
+    "rating": 3.1,
+    "details": {
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Pepper"
+      ],
+      "recipe": "Prepare the dough or base, layer it with sauce, add toppings, and bake at 180°C for 20 minutes."
+    },
+    "description": " This delicious drink is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c14",
+    "name": "Drink Item 2",
+    "category": "Drink",
+    "img": "https://i.ibb.co.com/HTT5YmDg/melissa-walker-horn-gt-DYw-UIr9-Vg-unsplash.jpg",
+    "price": 471,
+    "rating": 3.4,
+    "details": {
+      "ingredients": [
+        "Carrot",
+        "Cucumber",
+        "Mint",
+        "Honey"
+      ],
+      "recipe": "Prepare the dough or base, layer it with sauce, add toppings, and bake at 180°C for 20 minutes."
+    },
+    "description": " This delicious drink is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c15",
+    "name": "Drink Item 3",
+    "category": "Drink",
+    "img": "https://i.ibb.co.com/kgDhVJ2F/rodion-kutsaiev-x4z7-Gi-V5-0-unsplash.jpg",
+    "price": 419,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Pepper"
+      ],
+      "recipe": "Blend all the ingredients into a fine paste or juice and refrigerate for 30 minutes before serving cold."
+    },
+    "description": " This delicious drink is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c16",
+    "name": "Drink Item 4",
+    "category": "Drink",
+    "img": "https://i.ibb.co.com/5hrbMFYg/food-photographer-jennifer-pallian-s-Sn-CZl-EWN5-E-unsplash.jpg",
+    "price": 264,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Pepper"
+      ],
+      "recipe": "Heat oil in a pan, add spices, and stir-fry the vegetables. Add your protein and cook for 15 minutes. Serve garnished with herbs."
+    },
+    "description": " This delicious drink is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c17",
+    "name": "Drink Item 5",
+    "category": "Drink",
+    "img": "https://i.ibb.co.com/SXjfyP5y/whitney-wright-Tg-Qkx-Qc-t-U-unsplash.jpg",
+    "price": 235,
+    "rating": 4.3,
+    "details": {
+      "ingredients": [
+        "Carrot",
+        "Cucumber",
+        "Mint",
+        "Honey"
+      ],
+      "recipe": "Boil the noodles for 6–8 minutes, stir fry with your selected vegetables and meat, and season with soy sauce and sesame oil."
+    },
+    "description": " This delicious drink is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c18",
+    "name": "Noodle Item 1",
+    "category": "Noodles",
+    "img": "https://i.ibb.co.com/VWKVpMt1/mae-mu-H5-Hj8-QV2-Tx4-unsplash.jpg",
+    "price": 377,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Carrot",
+        "Cucumber",
+        "Mint",
+        "Honey"
+      ],
+      "recipe": "Boil the noodles for 6–8 minutes, stir fry with your selected vegetables and meat, and season with soy sauce and sesame oil."
+    },
+    "description": " This delicious noodle is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c19",
+    "name": "Noodle Item 2",
+    "category": "Noodles",
+    "img": "https://i.ibb.co.com/SwyfYqSH/jay-nlper-z6dh-O2-AS9i-M-unsplash.jpg",
+    "price": 419,
+    "rating": 4.2,
+    "details": {
+      "ingredients": [
+        "Carrot",
+        "Cucumber",
+        "Mint",
+        "Honey"
+      ],
+      "recipe": "Prepare the dough or base, layer it with sauce, add toppings, and bake at 180°C for 20 minutes."
+    },
+    "description": " This delicious noodle is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c1a",
+    "name": "Noodle Item 3",
+    "category": "Noodles",
+    "img": "https://i.ibb.co.com/KpQ7C6LL/bon-vivant-qom5-MPOER-I-unsplash-1.jpg",
+    "price": 233,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Chicken",
+        "Basil",
+        "Oregano",
+        "Spices"
+      ],
+      "recipe": "Boil the noodles for 6–8 minutes, stir fry with your selected vegetables and meat, and season with soy sauce and sesame oil."
+    },
+    "description": " This delicious noodle is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c1b",
+    "name": "Noodle Item 4",
+    "category": "Noodles",
+    "img": "https://i.ibb.co.com/twGQj5TQ/ikhsan-baihaqi-Rw-AXb8-Hv-s-U-unsplash.jpg",
+    "price": 197,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Chicken",
+        "Basil",
+        "Oregano",
+        "Spices"
+      ],
+      "recipe": "Start by washing all vegetables. Cook the meat until tender and season with salt and pepper. Assemble ingredients with sauce and serve hot."
+    },
+    "description": " This delicious noodle is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "6893a152768b28ffdcf49c1c",
+    "name": "Noodle Item 5",
+    "category": "Noodles",
+    "img": "https://i.ibb.co.com/KpQ7C6LL/bon-vivant-qom5-MPOER-I-unsplash-1.jpg",
+    "price": 206,
+    "rating": 4.1,
+    "details": {
+      "ingredients": [
+        "Mushrooms",
+        "Bell Peppers",
+        "Salt",
+        "Olive Oil"
+      ],
+      "recipe": "Start by washing all vegetables. Cook the meat until tender and season with salt and pepper. Assemble ingredients with sauce and serve hot."
+    },
+    "description": " This delicious noodle is crafted with high-quality ingredients and is a favorite among food lovers. Perfect for any time of the day, it offers a satisfying balance of flavors and textures that make it both tasty and memorable. Enjoy it fresh for the best experience, and pair it with a complementary drink or side dish. Its rich aroma and visually appealing presentation make it ideal for both casual meals and special occasions."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c0",
+    "name": "Salads Special 5",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/pBtmTy7J/istockphoto-2081769995-612x612.jpg",
+    "price": 6.62,
+    "rating": 4.6,
+    "details": {
+      "ingredients": [
+        "Olives",
+        "Romaine lettuce",
+        "Feta",
+        "Dressing"
+      ],
+      "recipe": "A delicious salads made with Olives ,Romaine lettuce ,Feta ,Dressing."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c1",
+    "name": "Noodles Special 84",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/sJVqgjdB/pexels-enginakyurt-2456435.jpg",
+    "price": 8.56,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Vegetables",
+        "Egg noodles",
+        "Soy sauce",
+        "Garlic"
+      ],
+      "recipe": "A delicious noodles made with Vegetables ,Egg noodles ,Soy sauce ,Garlic."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c2",
+    "name": "Burger Special 96",
+    "category": "burger",
+    "img": "https://i.ibb.co.com/W4GHvN7d/pexels-jonathanborba-2983098-1.jpg",
+    "price": 6.47,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Lettuce",
+        "Beef patty",
+        "Onions",
+        "Tomato"
+      ],
+      "recipe": "A delicious burger made with Lettuce ,Beef patty ,Onions ,Tomato."
+    },
+    "description": "Our gourmet burgers are made with freshly grilled beef patties, crisp lettuce, juicy tomatoes, and our special sauces stacked between toasted brioche buns. Each bite delivers rich flavors and satisfying textures."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c3",
+    "name": "Pizzas Special 8",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/FLRtrSLZ/pexels-pablo-macedo-287472-845798.jpg",
+    "price": 10.94,
+    "rating": 3.7,
+    "details": {
+      "ingredients": [
+        "Basil",
+        "Mushrooms",
+        "Tomato sauce",
+        "Mozzarella"
+      ],
+      "recipe": "A delicious pizzas made with Basil ,Mushrooms ,Tomato sauce ,Mozzarella."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c4",
+    "name": "Salads Special 36",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/BVtWdmT0/istockphoto-2197325273-612x612.jpg",
+    "price": 20.01,
+    "rating": 4.8,
+    "details": {
+      "ingredients": [
+        "Cucumber",
+        "Olives",
+        "Cherry tomatoes",
+        "Romaine lettuce"
+      ],
+      "recipe": "A delicious salads made with Cucumber ,Olives ,Cherry tomatoes ,Romaine lettuce."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c5",
+    "name": "Noodles Special 81",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/4wt40gQY/pexels-xmtnguyen-699953.jpg",
+    "price": 15.83,
+    "rating": 3.9,
+    "details": {
+      "ingredients": [
+        "Egg noodles",
+        "Chili oil",
+        "Vegetables",
+        "Spring onions"
+      ],
+      "recipe": "A delicious noodles made with Egg noodles ,Chili oil ,Vegetables ,Spring onions."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c6",
+    "name": "Salads Special 49",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/TxwWQhgJ/istockphoto-1987499256-612x612.jpg",
+    "price": 7.45,
+    "rating": 4.6,
+    "details": {
+      "ingredients": [
+        "Romaine lettuce",
+        "Feta",
+        "Dressing",
+        "Cherry tomatoes"
+      ],
+      "recipe": "A delicious salads made with Romaine lettuce ,Feta ,Dressing ,Cherry tomatoes."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c7",
+    "name": "Pizzas Special 86",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/FLRtrSLZ/pexels-pablo-macedo-287472-845798.jpg",
+    "price": 21.3,
+    "rating": 4.2,
+    "details": {
+      "ingredients": [
+        "Tomato sauce",
+        "Mozzarella",
+        "Basil",
+        "Pepperoni"
+      ],
+      "recipe": "A delicious pizzas made with Tomato sauce ,Mozzarella ,Basil ,Pepperoni."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c8",
+    "name": "Salads Special 77",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/TxwWQhgJ/istockphoto-1987499256-612x612.jpg",
+    "price": 9.78,
+    "rating": 4.4,
+    "details": {
+      "ingredients": [
+        "Romaine lettuce",
+        "Cherry tomatoes",
+        "Cucumber",
+        "Feta"
+      ],
+      "recipe": "A delicious salads made with Romaine lettuce ,Cherry tomatoes ,Cucumber ,Feta."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5c9",
+    "name": "Salads Special 45",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/TxwWQhgJ/istockphoto-1987499256-612x612.jpg",
+    "price": 18.52,
+    "rating": 4.7,
+    "details": {
+      "ingredients": [
+        "Cherry tomatoes",
+        "Olives",
+        "Romaine lettuce",
+        "Dressing"
+      ],
+      "recipe": "A delicious salads made with Cherry tomatoes ,Olives ,Romaine lettuce ,Dressing."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5ca",
+    "name": "Noodles Special 98",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/sJVqgjdB/pexels-enginakyurt-2456435.jpg",
+    "price": 17.44,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Egg noodles",
+        "Chili oil",
+        "Soy sauce",
+        "Vegetables"
+      ],
+      "recipe": "A delicious noodles made with Egg noodles ,Chili oil ,Soy sauce ,Vegetables."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5cb",
+    "name": "Pizzas Special 12",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/FLRtrSLZ/pexels-pablo-macedo-287472-845798.jpg",
+    "price": 23.38,
+    "rating": 4.9,
+    "details": {
+      "ingredients": [
+        "Mozzarella",
+        "Tomato sauce",
+        "Basil",
+        "Olives"
+      ],
+      "recipe": "A delicious pizzas made with Mozzarella ,Tomato sauce ,Basil ,Olives."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5cc",
+    "name": "Salads Special 61",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/RkZ148mV/pexels-mariannaole-764925.jpg",
+    "price": 11.93,
+    "rating": 4.2,
+    "details": {
+      "ingredients": [
+        "Cherry tomatoes",
+        "Dressing",
+        "Romaine lettuce",
+        "Cucumber"
+      ],
+      "recipe": "A delicious salads made with Cherry tomatoes ,Dressing ,Romaine lettuce ,Cucumber."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5cd",
+    "name": "Pizzas Special 48",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/whzy5dZz/pexels-enginakyurt-2619970.jpg",
+    "price": 18.27,
+    "rating": 3.5,
+    "details": {
+      "ingredients": [
+        "Basil",
+        "Pepperoni",
+        "Tomato sauce",
+        "Mushrooms"
+      ],
+      "recipe": "A delicious pizzas made with Basil ,Pepperoni ,Tomato sauce ,Mushrooms."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5ce",
+    "name": "Noodles Special 3",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/1Gn0V5Xt/pexels-enginakyurt-2347311.jpg",
+    "price": 10.91,
+    "rating": 4.5,
+    "details": {
+      "ingredients": [
+        "Egg noodles",
+        "Garlic",
+        "Spring onions",
+        "Chili oil"
+      ],
+      "recipe": "A delicious noodles made with Egg noodles ,Garlic ,Spring onions ,Chili oil."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5cf",
+    "name": "Salads Special 2",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/2YqwdhkG/pexels-catscoming-406152.jpg",
+    "price": 8.33,
+    "rating": 3.8,
+    "details": {
+      "ingredients": [
+        "Romaine lettuce",
+        "Olives",
+        "Cucumber",
+        "Dressing"
+      ],
+      "recipe": "A delicious salads made with Romaine lettuce ,Olives ,Cucumber ,Dressing."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d0",
+    "name": "Burger Special 30",
+    "category": "burger",
+    "img": "https://i.ibb.co.com/W4GHvN7d/pexels-jonathanborba-2983098-1.jpg",
+    "price": 21.72,
+    "rating": 4.1,
+    "details": {
+      "ingredients": [
+        "Cheddar",
+        "Onions",
+        "Beef patty",
+        "Pickles"
+      ],
+      "recipe": "A delicious burger made with Cheddar ,Onions ,Beef patty ,Pickles."
+    },
+    "description": "Our gourmet burgers are made with freshly grilled beef patties, crisp lettuce, juicy tomatoes, and our special sauces stacked between toasted brioche buns. Each bite delivers rich flavors and satisfying textures."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d1",
+    "name": "Desserts Special 52",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/Y7MSJ8BH/istockphoto-2192512007-612x612.jpg",
+    "price": 19.11,
+    "rating": 3.5,
+    "details": {
+      "ingredients": [
+        "Sugar",
+        "Vanilla",
+        "Berries",
+        "Cream"
+      ],
+      "recipe": "A delicious desserts made with Sugar ,Vanilla ,Berries ,Cream."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d2",
+    "name": "Pizzas Special 27",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/ShyNT0w/pexels-muffin-1653877.jpg",
+    "price": 16.94,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Basil",
+        "Pepperoni",
+        "Mushrooms",
+        "Tomato sauce"
+      ],
+      "recipe": "A delicious pizzas made with Basil ,Pepperoni ,Mushrooms ,Tomato sauce."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d3",
+    "name": "Pizzas Special 54",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/QFdjWM8g/istockphoto-2170408203-612x612.jpg",
+    "price": 18.86,
+    "rating": 3.9,
+    "details": {
+      "ingredients": [
+        "Tomato sauce",
+        "Pepperoni",
+        "Mushrooms",
+        "Basil"
+      ],
+      "recipe": "A delicious pizzas made with Tomato sauce ,Pepperoni ,Mushrooms ,Basil."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d4",
+    "name": "Desserts Special 29",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/vvKYPm6n/pexels-marta-dzedyshko-1042863-2067396.jpg",
+    "price": 16.58,
+    "rating": 3.9,
+    "details": {
+      "ingredients": [
+        "Butter",
+        "Cream",
+        "Sugar",
+        "Berries"
+      ],
+      "recipe": "A delicious desserts made with Butter ,Cream ,Sugar ,Berries."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d5",
+    "name": "Pizzas Special 92",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/ShyNT0w/pexels-muffin-1653877.jpg",
+    "price": 14.89,
+    "rating": 4.9,
+    "details": {
+      "ingredients": [
+        "Olives",
+        "Tomato sauce",
+        "Mushrooms",
+        "Basil"
+      ],
+      "recipe": "A delicious pizzas made with Olives ,Tomato sauce ,Mushrooms ,Basil."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d6",
+    "name": "Burger Special 37",
+    "category": "burger",
+    "img": "https://i.ibb.co.com/tPPMg625/pexels-rajesh-tp-749235-1600727.jpg",
+    "price": 11.64,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Tomato",
+        "Lettuce",
+        "Cheddar",
+        "Onions"
+      ],
+      "recipe": "A delicious burger made with Tomato ,Lettuce ,Cheddar ,Onions."
+    },
+    "description": "Our gourmet burgers are made with freshly grilled beef patties, crisp lettuce, juicy tomatoes, and our special sauces stacked between toasted brioche buns. Each bite delivers rich flavors and satisfying textures."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d7",
+    "name": "Drinks Special 63",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/20Y2x4JW/istockphoto-537699703-612x612.jpg",
+    "price": 16.69,
+    "rating": 4.2,
+    "details": {
+      "ingredients": [
+        "Mint",
+        "Orange",
+        "Lime",
+        "Ice cubes"
+      ],
+      "recipe": "A delicious drinks made with Mint ,Orange ,Lime ,Ice cubes."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d8",
+    "name": "Drinks Special 98",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/qYd03WBq/pexels-olenkabohovyk-3819969.jpg",
+    "price": 5.22,
+    "rating": 4.3,
+    "details": {
+      "ingredients": [
+        "Mint",
+        "Soda",
+        "Sugar syrup",
+        "Orange"
+      ],
+      "recipe": "A delicious drinks made with Mint ,Soda ,Sugar syrup ,Orange."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5d9",
+    "name": "Desserts Special 38",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/1t3pKX3W/istockphoto-1346128287-612x612.jpg",
+    "price": 12.86,
+    "rating": 4.6,
+    "details": {
+      "ingredients": [
+        "Butter",
+        "Berries",
+        "Sugar",
+        "Cream"
+      ],
+      "recipe": "A delicious desserts made with Butter ,Berries ,Sugar ,Cream."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5da",
+    "name": "Drinks Special 63",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/XZWRC8sv/istockphoto-533456907-612x612.jpg",
+    "price": 22.22,
+    "rating": 4.3,
+    "details": {
+      "ingredients": [
+        "Sugar syrup",
+        "Lime",
+        "Mint",
+        "Ice cubes"
+      ],
+      "recipe": "A delicious drinks made with Sugar syrup ,Lime ,Mint ,Ice cubes."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5db",
+    "name": "Noodles Special 88",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/1Gn0V5Xt/pexels-enginakyurt-2347311.jpg",
+    "price": 10.18,
+    "rating": 3.5,
+    "details": {
+      "ingredients": [
+        "Egg noodles",
+        "Vegetables",
+        "Soy sauce",
+        "Chili oil"
+      ],
+      "recipe": "A delicious noodles made with Egg noodles ,Vegetables ,Soy sauce ,Chili oil."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5dc",
+    "name": "Drinks Special 33",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/qYd03WBq/pexels-olenkabohovyk-3819969.jpg",
+    "price": 22.13,
+    "rating": 4.3,
+    "details": {
+      "ingredients": [
+        "Soda",
+        "Orange",
+        "Mint",
+        "Sugar syrup"
+      ],
+      "recipe": "A delicious drinks made with Soda ,Orange ,Mint ,Sugar syrup."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5dd",
+    "name": "Noodles Special 8",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/b5Wk2gJt/pexels-xmtnguyen-2591594.jpg",
+    "price": 5.29,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Spring onions",
+        "Vegetables",
+        "Chili oil",
+        "Garlic"
+      ],
+      "recipe": "A delicious noodles made with Spring onions ,Vegetables ,Chili oil ,Garlic."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5de",
+    "name": "Noodles Special 94",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/N6f0Mz7H/pexels-xmtnguyen-2664216.jpg",
+    "price": 22.58,
+    "rating": 3.8,
+    "details": {
+      "ingredients": [
+        "Vegetables",
+        "Egg noodles",
+        "Chili oil",
+        "Spring onions"
+      ],
+      "recipe": "A delicious noodles made with Vegetables ,Egg noodles ,Chili oil ,Spring onions."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5df",
+    "name": "Drinks Special 78",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/BV23MnRt/istockphoto-458656749-612x612.jpg",
+    "price": 15.49,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Orange",
+        "Lime",
+        "Soda",
+        "Sugar syrup"
+      ],
+      "recipe": "A delicious drinks made with Orange ,Lime ,Soda ,Sugar syrup."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e0",
+    "name": "Drinks Special 57",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/twDFfqvV/istockphoto-483874551-612x612.jpg",
+    "price": 5.7,
+    "rating": 4.2,
+    "details": {
+      "ingredients": [
+        "Sugar syrup",
+        "Lime",
+        "Orange",
+        "Soda"
+      ],
+      "recipe": "A delicious drinks made with Sugar syrup ,Lime ,Orange ,Soda."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e1",
+    "name": "Drinks Special 80",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/ns2rNqHq/istockphoto-515079850-612x612.jpg",
+    "price": 21.1,
+    "rating": 4.4,
+    "details": {
+      "ingredients": [
+        "Ice cubes",
+        "Lime",
+        "Sugar syrup",
+        "Orange"
+      ],
+      "recipe": "A delicious drinks made with Ice cubes ,Lime ,Sugar syrup ,Orange."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e2",
+    "name": "Noodles Special 76",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/SXqv3kM5/istockphoto-2189358606-612x612.jpg",
+    "price": 17.08,
+    "rating": 3.9,
+    "details": {
+      "ingredients": [
+        "Soy sauce",
+        "Egg noodles",
+        "Spring onions",
+        "Garlic"
+      ],
+      "recipe": "A delicious noodles made with Soy sauce ,Egg noodles ,Spring onions ,Garlic."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e3",
+    "name": "Desserts Special 81",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/Vcd1Khwk/istockphoto-2156543348-612x612.jpg",
+    "price": 15.56,
+    "rating": 3.9,
+    "details": {
+      "ingredients": [
+        "Chocolate",
+        "Butter",
+        "Cream",
+        "Sugar"
+      ],
+      "recipe": "A delicious desserts made with Chocolate ,Butter ,Cream ,Sugar."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e4",
+    "name": "Salads Special 38",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/2YqwdhkG/pexels-catscoming-406152.jpg",
+    "price": 24.72,
+    "rating": 4.9,
+    "details": {
+      "ingredients": [
+        "Romaine lettuce",
+        "Dressing",
+        "Cucumber",
+        "Cherry tomatoes"
+      ],
+      "recipe": "A delicious salads made with Romaine lettuce ,Dressing ,Cucumber ,Cherry tomatoes."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e5",
+    "name": "Desserts Special 92",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/sv87qDfm/pexels-karthik-reddy-130698-397913.jpg",
+    "price": 15.76,
+    "rating": 4.9,
+    "details": {
+      "ingredients": [
+        "Chocolate",
+        "Sugar",
+        "Butter",
+        "Berries"
+      ],
+      "recipe": "A delicious desserts made with Chocolate ,Sugar ,Butter ,Berries."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e6",
+    "name": "Drinks Special 13",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/S4rDmbYh/pexels-jonathanborba-2983100.jpg",
+    "price": 8.6,
+    "rating": 4.5,
+    "details": {
+      "ingredients": [
+        "Mint",
+        "Soda",
+        "Orange",
+        "Ice cubes"
+      ],
+      "recipe": "A delicious drinks made with Mint ,Soda ,Orange ,Ice cubes."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e7",
+    "name": "Pizzas Special 92",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/DHX7dPcq/istockphoto-2023102269-612x612.jpg",
+    "price": 20.04,
+    "rating": 4.5,
+    "details": {
+      "ingredients": [
+        "Basil",
+        "Pepperoni",
+        "Tomato sauce",
+        "Mozzarella"
+      ],
+      "recipe": "A delicious pizzas made with Basil ,Pepperoni ,Tomato sauce ,Mozzarella."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e8",
+    "name": "Noodles Special 1",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/B2Y9BGc7/istockphoto-1938230376-612x612.jpg",
+    "price": 18.14,
+    "rating": 4.7,
+    "details": {
+      "ingredients": [
+        "Soy sauce",
+        "Spring onions",
+        "Garlic",
+        "Chili oil"
+      ],
+      "recipe": "A delicious noodles made with Soy sauce ,Spring onions ,Garlic ,Chili oil."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5e9",
+    "name": "Burger Special 16",
+    "category": "burger",
+    "img": "https://i.ibb.co.com/ks2ccLq8/pexels-valeriya-1639557.jpg",
+    "price": 13.42,
+    "rating": 4,
+    "details": {
+      "ingredients": [
+        "Lettuce",
+        "Beef patty",
+        "Pickles",
+        "Cheddar"
+      ],
+      "recipe": "A delicious burger made with Lettuce ,Beef patty ,Pickles ,Cheddar."
+    },
+    "description": "Our gourmet burgers are made with freshly grilled beef patties, crisp lettuce, juicy tomatoes, and our special sauces stacked between toasted brioche buns. Each bite delivers rich flavors and satisfying textures."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5ea",
+    "name": "Desserts Special 67",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/1t3pKX3W/istockphoto-1346128287-612x612.jpg",
+    "price": 24.48,
+    "rating": 4.8,
+    "details": {
+      "ingredients": [
+        "Berries",
+        "Butter",
+        "Vanilla",
+        "Sugar"
+      ],
+      "recipe": "A delicious desserts made with Berries ,Butter ,Vanilla ,Sugar."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5eb",
+    "name": "Burger Special 60",
+    "category": "burger",
+    "img": "https://i.ibb.co.com/ks2ccLq8/pexels-valeriya-1639557.jpg",
+    "price": 11.01,
+    "rating": 3.7,
+    "details": {
+      "ingredients": [
+        "Cheddar",
+        "Lettuce",
+        "Pickles",
+        "Tomato"
+      ],
+      "recipe": "A delicious burger made with Cheddar ,Lettuce ,Pickles ,Tomato."
+    },
+    "description": "Our gourmet burgers are made with freshly grilled beef patties, crisp lettuce, juicy tomatoes, and our special sauces stacked between toasted brioche buns. Each bite delivers rich flavors and satisfying textures."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5ec",
+    "name": "Pizzas Special 12",
+    "category": "pizza",
+    "img": "https://i.ibb.co.com/gMgwqRHv/istockphoto-2219365841-612x612.jpg",
+    "price": 11.35,
+    "rating": 3.8,
+    "details": {
+      "ingredients": [
+        "Pepperoni",
+        "Olives",
+        "Mushrooms",
+        "Tomato sauce"
+      ],
+      "recipe": "A delicious pizzas made with Pepperoni ,Olives ,Mushrooms ,Tomato sauce."
+    },
+    "description": "Stone-baked pizzas crafted with authentic Italian ingredients. A crispy crust topped with savory sauces, melting cheese, and fresh toppings creates the perfect pizza experience."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5ed",
+    "name": "Drinks Special 38",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/S4rDmbYh/pexels-jonathanborba-2983100.jpg",
+    "price": 16.16,
+    "rating": 5,
+    "details": {
+      "ingredients": [
+        "Sugar syrup",
+        "Orange",
+        "Mint",
+        "Ice cubes"
+      ],
+      "recipe": "A delicious drinks made with Sugar syrup ,Orange ,Mint ,Ice cubes."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5ee",
+    "name": "Burger Special 35",
+    "category": "burger",
+    "img": "https://i.ibb.co.com/hF1SL1yC/pexels-valeriya-1639565.jpg",
+    "price": 8.1,
+    "rating": 4.6,
+    "details": {
+      "ingredients": [
+        "Tomato",
+        "Lettuce",
+        "Onions",
+        "Brioche bun"
+      ],
+      "recipe": "A delicious burger made with Tomato ,Lettuce ,Onions ,Brioche bun."
+    },
+    "description": "Our gourmet burgers are made with freshly grilled beef patties, crisp lettuce, juicy tomatoes, and our special sauces stacked between toasted brioche buns. Each bite delivers rich flavors and satisfying textures."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5ef",
+    "name": "Noodles Special 52",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/SXqv3kM5/istockphoto-2189358606-612x612.jpg",
+    "price": 15.17,
+    "rating": 4.9,
+    "details": {
+      "ingredients": [
+        "Spring onions",
+        "Garlic",
+        "Soy sauce",
+        "Egg noodles"
+      ],
+      "recipe": "A delicious noodles made with Spring onions ,Garlic ,Soy sauce ,Egg noodles."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f0",
+    "name": "Drinks Special 6",
+    "category": "drink",
+    "img": "https://i.ibb.co.com/ns2rNqHq/istockphoto-515079850-612x612.jpg",
+    "price": 10.56,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Soda",
+        "Lime",
+        "Sugar syrup",
+        "Ice cubes"
+      ],
+      "recipe": "A delicious drinks made with Soda ,Lime ,Sugar syrup ,Ice cubes."
+    },
+    "description": "Cool down with our handcrafted beverages. Whether you're into zesty citrus, fruity punches, or creamy blends, our drinks are both refreshing and invigorating."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f1",
+    "name": "Desserts Special 15",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/Y7MSJ8BH/istockphoto-2192512007-612x612.jpg",
+    "price": 6.08,
+    "rating": 4.8,
+    "details": {
+      "ingredients": [
+        "Sugar",
+        "Butter",
+        "Berries",
+        "Chocolate"
+      ],
+      "recipe": "A delicious desserts made with Sugar ,Butter ,Berries ,Chocolate."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f2",
+    "name": "Noodles Special 25",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/4wt40gQY/pexels-xmtnguyen-699953.jpg",
+    "price": 18.34,
+    "rating": 4.6,
+    "details": {
+      "ingredients": [
+        "Egg noodles",
+        "Chili oil",
+        "Garlic",
+        "Soy sauce"
+      ],
+      "recipe": "A delicious noodles made with Egg noodles ,Chili oil ,Garlic ,Soy sauce."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f3",
+    "name": "Salads Special 71",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/fLnqhsD/pexels-daniela-elena-tentis-118658-1213710.jpg",
+    "price": 11.36,
+    "rating": 4.9,
+    "details": {
+      "ingredients": [
+        "Romaine lettuce",
+        "Feta",
+        "Dressing",
+        "Cherry tomatoes"
+      ],
+      "recipe": "A delicious salads made with Romaine lettuce ,Feta ,Dressing ,Cherry tomatoes."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f4",
+    "name": "Desserts Special 27",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/671K7L1f/pexels-quang-nguyen-vinh-222549-2144112.jpg",
+    "price": 12.71,
+    "rating": 4.7,
+    "details": {
+      "ingredients": [
+        "Berries",
+        "Cream",
+        "Vanilla",
+        "Sugar"
+      ],
+      "recipe": "A delicious desserts made with Berries ,Cream ,Vanilla ,Sugar."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f5",
+    "name": "Noodles Special 43",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/b5Wk2gJt/pexels-xmtnguyen-2591594.jpg",
+    "price": 6.44,
+    "rating": 4.7,
+    "details": {
+      "ingredients": [
+        "Soy sauce",
+        "Vegetables",
+        "Garlic",
+        "Chili oil"
+      ],
+      "recipe": "A delicious noodles made with Soy sauce ,Vegetables ,Garlic ,Chili oil."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f6",
+    "name": "Desserts Special 19",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/Y7MSJ8BH/istockphoto-2192512007-612x612.jpg",
+    "price": 17.52,
+    "rating": 3.6,
+    "details": {
+      "ingredients": [
+        "Sugar",
+        "Butter",
+        "Cream",
+        "Berries"
+      ],
+      "recipe": "A delicious desserts made with Sugar ,Butter ,Cream ,Berries."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f7",
+    "name": "Desserts Special 62",
+    "category": "dessert",
+    "img": "https://i.ibb.co.com/sv87qDfm/pexels-karthik-reddy-130698-397913.jpg",
+    "price": 6.05,
+    "rating": 3.7,
+    "details": {
+      "ingredients": [
+        "Berries",
+        "Vanilla",
+        "Sugar",
+        "Cream"
+      ],
+      "recipe": "A delicious desserts made with Berries ,Vanilla ,Sugar ,Cream."
+    },
+    "description": "Delight in our sweet creations. From rich chocolate layers to fruity toppings, each dessert is made to indulge your senses and complete your meal with perfection."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f8",
+    "name": "Salads Special 73",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/RkZ148mV/pexels-mariannaole-764925.jpg",
+    "price": 13.62,
+    "rating": 4.4,
+    "details": {
+      "ingredients": [
+        "Romaine lettuce",
+        "Dressing",
+        "Feta",
+        "Cucumber"
+      ],
+      "recipe": "A delicious salads made with Romaine lettuce ,Dressing ,Feta ,Cucumber."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5f9",
+    "name": "Salads Special 46",
+    "category": "salad",
+    "img": "https://i.ibb.co.com/2YqwdhkG/pexels-catscoming-406152.jpg",
+    "price": 23.21,
+    "rating": 3.7,
+    "details": {
+      "ingredients": [
+        "Feta",
+        "Dressing",
+        "Cherry tomatoes",
+        "Olives"
+      ],
+      "recipe": "A delicious salads made with Feta ,Dressing ,Cherry tomatoes ,Olives."
+    },
+    "description": "Our salads are a refreshing mix of crisp greens, seasonal vegetables, and flavorful dressings. A healthy and tasty option for any time of the day."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5fa",
+    "name": "Noodles Special 26",
+    "category": "noodles",
+    "img": "https://i.ibb.co.com/Lhnz5NCq/istockphoto-1975701807-612x612.jpg",
+    "price": 5.2,
+    "rating": 4.7,
+    "details": {
+      "ingredients": [
+        "Garlic",
+        "Spring onions",
+        "Soy sauce",
+        "Chili oil"
+      ],
+      "recipe": "A delicious noodles made with Garlic ,Spring onions ,Soy sauce ,Chili oil."
+    },
+    "description": "Steaming hot noodles tossed in savory sauces with fresh vegetables and spices. A perfect blend of flavor and texture in every bowl."
+  },
+  {
+    "_id": "689607aa2eeb98d6770ac5fb",
+    "name": "Burger Special 1",
+    "category": "burger",
+    "img": "https://i.ibb.co.com/S75nx6xQ/pexels-jonathanborba-2983101.jpg",
+    "price": 17.55,
+    "rating": 4.6,
+    "details": {
+      "ingredients": [
+        "Pickles",
+        "Lettuce",
+        "Cheddar",
+        "Onions"
+      ],
+      "recipe": "A delicious burger made with Pickles ,Lettuce ,Cheddar ,Onions."
+    },
+    "description": "Our gourmet burgers are made with freshly grilled beef patties, crisp lettuce, juicy tomatoes, and our special sauces stacked between toasted brioche buns. Each bite delivers rich flavors and satisfying textures."
+  }
+]

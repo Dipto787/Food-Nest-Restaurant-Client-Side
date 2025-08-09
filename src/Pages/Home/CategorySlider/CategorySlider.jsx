@@ -2,8 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';   
 import 'swiper/css';
 import 'swiper/css/free-mode';
-import 'swiper/css/pagination';  
-import img1 from '../../../assets/home/slide1.jpg';
+import 'swiper/css/pagination'; 
 import img3 from '../../../assets/home/slide2.jpg';
 import img2 from '../../../assets/home/slide3.jpg';
 import img4 from '../../../assets/home/slide4.jpg';
@@ -25,13 +24,10 @@ const CategorySlider = () => {
                 modules={[Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide className=''>
-                    <img className='' src={img1} alt="" />
-                    <h1 className='text-4xl text-center -mt-16 text-white   '>Coffee</h1>
-                </SwiperSlide>
+              
                 <SwiperSlide>
                     <img className='' src={img2} alt="" />
-                    <h1 className='text-4xl text-center -mt-16 text-white   '>Soups</h1>
+                    <h1 className='text-4xl text-center -mt-16 text-white   '>burger</h1>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img className='' src={img3} alt="" />

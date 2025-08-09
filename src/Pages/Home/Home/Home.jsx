@@ -11,7 +11,7 @@ import MeetOurChefs from "../MeetOurChefs";
 
 const Home = () => {
     return (
-        <div>
+        <div className="max-w-screen-2xl mx-auto">
             <Helmet>
                 <title>Food Nest | Home</title>
             </Helmet>

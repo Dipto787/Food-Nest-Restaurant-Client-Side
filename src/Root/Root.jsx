@@ -11,7 +11,7 @@ const Root = () => {
             {
                 unable || <Navbar></Navbar>
             }
-            <div className="max-w-screen-xl mx-auto">
+            <div className="pt-24   min-h-[calc(90vh-50px)]">
                 <Outlet></Outlet>
             </div>
 

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useEffect, useState } from "react"; 
+import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -13,14 +13,14 @@ const MeetOurChefs = () => {
                 setChefs(res.data)
             })
     }, [])
-    console.log('chefs',chefs)
+    console.log('chefs', chefs)
     return (
         <div className="my-32">
             <SectionTitle heading={'meet our chefs'} subHeading={'check it out'}></SectionTitle>
-          
+
             <Swiper
                 slidesPerView={4}
-                spaceBetween={30} 
+                spaceBetween={30}
                 freeMode={true}
                 pagination={{
                     clickable: true,
@@ -30,19 +30,21 @@ const MeetOurChefs = () => {
             >
 
                 {
-                    chefs.map(chef => 
+                    chefs.map(chef =>
                         <SwiperSlide>
-                        
-                            <div className="card relative p-2 bg-purple-200 h-[400px]">
-                                <figure>
-                                    <img
-                                    className="h-80"
-                                        src={chef.image}                                        alt="Shoes" />
-                                </figure>
+
+                            <div className="car relative bg-gradient-to-br from-gray-800 via-gray-900 to-black text-white p-6 rounded-xl shadow-xl h-[500px] ">
+                                
+                                    <div>
+                                        <img
+                                        className="h-48"
+                                        src={chef.image} alt="Shoes" />
+                                    </div>
+                                
                                 <span className="absolute bg-black py-1 px-4 bg-opacity-40 text-white font-bold left-5 top-5">{chef.experience} Experience</span>
-                                <div className="card-body">
-                                    <h2 className="card-title">{chef.name}</h2>
-                                    <p>{chef.bio}</p>
+                                <div className="">
+                                    <h2 className="text-xl">{chef.name}</h2>
+                                    <p className="text-sm">{chef.bio}</p>
                                     {/* <div className="card-actions justify-end">
                                         <button className="btn btn-primary">Buy Now</button>
                                     </div> */}

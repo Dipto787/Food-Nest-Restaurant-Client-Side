@@ -15,7 +15,8 @@ const MenuHero = ({ menuBg, heading, subHeading }) => {
                         <h1 className="mb-5 uppercase text-5xl font-bold">{heading}</h1>
 
                         <p className="mb-5">
-                            Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            🍽️ Welcome to Food-Nest – A Place Where Taste Feels Like Home! 🍔🍕🍜
+Discover a nest full of flavors! From sizzling starters to mouthwatering mains and sweet delights – every bite at Food-Nest is made with love, freshness, and a passion for perfection. Dine in, take out, or order online – your delicious journey starts here!
                         </p>
                     </div>
                 </div>
