@@ -12,9 +12,9 @@ const MenuHero = ({ menuBg, heading, subHeading }) => {
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-neutral-content text-center">
                     <div className="max-w-md">
-                        <h1 className="mb-5 uppercase text-5xl font-bold">{heading}</h1>
+                        <h1 className="mb-5 uppercase text-2xl font-bold">{heading}</h1>
 
-                        <p className="mb-5">
+                        <p className="mb-5 text-xs">
                             🍽️ Welcome to Food-Nest – A Place Where Taste Feels Like Home! 🍔🍕🍜
 Discover a nest full of flavors! From sizzling starters to mouthwatering mains and sweet delights – every bite at Food-Nest is made with love, freshness, and a passion for perfection. Dine in, take out, or order online – your delicious journey starts here!
                         </p>

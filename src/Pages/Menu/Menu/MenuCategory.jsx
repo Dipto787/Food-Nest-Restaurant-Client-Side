@@ -11,8 +11,8 @@ const MenuCategory = ({ items, menuBg, title }) => {
                     items.map(item => <ItemMenu item={item}></ItemMenu>)
                 }
             </div>
-            <Link  to={`/order/${title}`}>
-                <button className='btn mt-4 bg-orange-600 text-white'>Order now</button>
+            <Link  to={`/order?category=${title}`}>
+                <button className='btn mt-4 text-xs bg-orange-600 text-white'>Order now</button>
             </Link>
         </div>
     );

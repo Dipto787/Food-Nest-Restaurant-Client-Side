@@ -50,7 +50,7 @@ const Login = () => {
     }
   }
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center md:w-1/2 lg:text-left">
           <h1 className="text-5xl font-bold">Login now!</h1>
@@ -59,7 +59,7 @@ const Login = () => {
             quasi. In deleniti eaque aut repudiandae et a id nisi.
           </p>
         </div>
-        <div className="card  md:w-1/2  bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+        <div className="      w-full max-w-md  shadow-2xl">
           <form onSubmit={handleLogin} className="card-body">
             <div className="form-control">
               <label className="label">
@@ -78,15 +78,23 @@ const Login = () => {
               <label className="label">
                 <LoadCanvasTemplate></LoadCanvasTemplate>
               </label>
-              {/* <input type="text" onBlur={handleValidCaptcha} placeholder="Write the Captcha" name="captcha" className="input input-bordered" required /> */}
+              <input type="text" onBlur={handleValidCaptcha} placeholder="Write the Captcha" name="captcha" className="input input-bordered" required />
             </div>
 
-            <div className="form-control mt-6">
-              <button disabled={false} className="btn btn-primary">Login</button>
+            <div className="form-control mt-2">
+              <button
+  disabled={valid}
+className="px-6 py-2 rounded-lg bg-[#198754] text-white font-semibold shadow-md hover:bg-[#157347] hover:shadow-lg active:scale-95 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+>
+  Login
+</button>
+
             </div>
           </form>
-          <p>Don't have an Account? Please <Link className='text-blue-500' to='/signup'>SignUp</Link></p>
-          <GoogleSignIn></GoogleSignIn>
+          <p className='text-center'>Don't have an Account? Please <Link className='text-blue-500' to='/signup'>SignUp</Link></p>
+          <div className=' text-center'>
+            <GoogleSignIn></GoogleSignIn>
+          </div>
         </div>
       </div>
     </div>

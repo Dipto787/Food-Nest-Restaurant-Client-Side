@@ -2,7 +2,8 @@ import axios from "axios";
 
 
 let instance = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://food-nest-website-server.vercel.app',
+    withCredentials:true
 })
 const UseAxiosPublic = () => {
     return instance;

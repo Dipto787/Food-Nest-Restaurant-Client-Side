@@ -7,7 +7,7 @@ const Root = () => {
     let unable = (location.pathname === '/login') || (location.pathname === '/signup');
     console.log(location);
     return (
-        <div>
+        <div className="bg-white text-black">
             {
                 unable || <Navbar></Navbar>
             }

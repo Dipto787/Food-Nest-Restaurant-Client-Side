@@ -3,7 +3,7 @@ import brand from '../../assets/icon/logo.png'
 const Footer = () => {
     return (
         <div className="bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] text-white p-8">
-            <footer className="px-4 divide-y dark:bg-gray-100 dark:text-gray-800">
+            <footer className="px-4 divide-y ">
                 <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
                     <div className="">
                         <Link rel="noopener noreferrer" href="#" className="flex items-center justify-center space-x-3">

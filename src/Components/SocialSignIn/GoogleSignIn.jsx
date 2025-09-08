@@ -25,8 +25,8 @@ const GoogleSignIn = () => {
     }
     return (
         <div>
-            <div className="p-8">
-                <button onClick={handleGoogleSignIn} className="btn">
+            <div className="p-4 w-full">
+                <button onClick={handleGoogleSignIn} className="btn w-full">
                     <FaGoogle size={22}></FaGoogle>
                     Google
                 </button>

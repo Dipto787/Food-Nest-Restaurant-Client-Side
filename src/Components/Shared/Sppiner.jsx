@@ -4,7 +4,7 @@ const Spinner = () => {
     return (
         <div>
             <div className="flex flex-col min-h-screen justify-center items-center">
-                <AiOutlineLoading3Quarters size={80} className="animate-spin text-center text-2xl" />
+                <AiOutlineLoading3Quarters size={40} className="animate-spin text-center text-2xl" />
             </div>
 
         </div>

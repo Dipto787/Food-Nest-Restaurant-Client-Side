@@ -18,6 +18,8 @@ import PayMentGetWay from "../Pages/Dashboard/PayMentGetWay";
 import PaymentHistory from "../Pages/Dashboard/PaymentHistory";
 import AdminHome from "../Pages/Dashboard/AdminHome";
 import UserHome from "../Pages/Dashboard/UserHome";
+import CardDetails from "../Pages/Order/Order/CardDetails";
+import BookTable from "../Pages/Dashboard/BookTable";
 
 let router = createBrowserRouter([
     {
@@ -35,6 +37,10 @@ let router = createBrowserRouter([
             {
                 path: '/order',
                 element: <Order></Order>
+            },
+            {
+                path: '/order/:id',
+                element: <CardDetails></CardDetails>
             },
             {
                 path: '/login',
@@ -60,8 +66,8 @@ let router = createBrowserRouter([
                 element: <MyCart></MyCart>
             },
             {
-                path:'userHome',
-                element:<UserHome></UserHome>
+                path: 'userHome',
+                element: <UserHome></UserHome>
             },
             {
                 path: 'paymentHistory',
@@ -77,8 +83,8 @@ let router = createBrowserRouter([
                 element: <AdminRoute> <AllUser></AllUser></AdminRoute>
             },
             {
-                path:'adminHome',
-                element:<AdminRoute><AdminHome></AdminHome></AdminRoute>
+                path: 'adminHome',
+                element: <AdminRoute><AdminHome></AdminHome></AdminRoute>
             },
             {
                 path: 'addItems',
@@ -92,6 +98,10 @@ let router = createBrowserRouter([
                 path: 'updateItem/:id',
                 element: <AdminRoute><UpdateItems></UpdateItems></AdminRoute>,
                 loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
+            },
+            {
+                path:'reservation',
+                element:<BookTable></BookTable>
             }
         ]
     }
