@@ -22,6 +22,14 @@ const UserHome = () => {
     },
   });
 
+  const { data: bookings = [] } = useQuery({
+    queryKey: ["booking", user?.email],
+    queryFn: async () => {
+      const res = await axiosSecure.get(`/bookTable/${user?.email}`);
+      return res.data;
+    },
+  });
+
   const totalPrice = payment.reduce((total, item) => total + item.price, 0);
 
   return (
@@ -62,7 +70,7 @@ const UserHome = () => {
           <BiSolidFoodMenu size={50} className="text-white" />
           <div className="text-center text-white">
             <h2 className="text-xl md:text-2xl font-bold">
-              <CountUp end={7} duration={3} />+
+              <CountUp end={bookings.length} duration={3} />+
             </h2>
             <p className="text-sm md:text-xs">Total Bookings</p>
           </div>

@@ -17,7 +17,7 @@ const ItemMenu = ({ item }) => {
         <h3 className="text-sm font-bold uppercase tracking-wide text-gray-800 mb-2 border-b-2 border-yellow-400 inline-block pb-1">
           {name}
         </h3>
-        <p className="text-gray-600 text-xs italic">{details.recipe}</p>
+        <p className="text-gray-600 text-xs italic">{details?.recipe}</p>
       </div>
 
       <div className="text-yellow-500 font-extrabold text-sm min-w-[60px] text-right">

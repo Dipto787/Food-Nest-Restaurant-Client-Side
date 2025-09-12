@@ -31,23 +31,16 @@ const AuthContext = ({ children }) => {
             photoURL: photo
         })
     }
+    let getToken = async (email) => {
+        let { data } = await axiosPublic.post('/jwt', { email });
+        console.log(data)
+    }
     useEffect(() => {
         let unsubscribe = onAuthStateChanged(auth, currentUser => {
             setUser(currentUser);
             if (currentUser) {
-                let userInfo = { email: currentUser.email };
-                axiosPublic.post('/jwt', userInfo)
-                    .then(res => {
-                        if (res.data.token) {
-                            localStorage.setItem('access-token', res.data.token);
-                            setLoading(false);
-                        }
-                    })
-            } else {
-                localStorage.removeItem('access-token')
-                setLoading(false);
+                getToken(currentUser.email);
             }
-            console.log(currentUser);
         })
 
         return () => unsubscribe();

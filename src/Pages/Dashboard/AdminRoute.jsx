@@ -1,18 +1,18 @@
-import { Navigate, useLocation } from "react-router-dom";
-import UseAdmin from "../../Components/hooks/UseAdmin";
+import { Navigate, useLocation } from "react-router-dom"; 
 import UseAuth from "../../Components/hooks/UseAuth";
 import { useContext } from "react";
 import { AuthProvider } from "../../Provider/AuthContext";
+import useRole from "../../Components/hooks/UseAdmin";
 
 
 const AdminRoute = ({ children }) => {
     let { user, loading } = UseAuth();
-    let [isAdmin, isPending] = UseAdmin();
+    let [role, isLoading] = useRole();
     let location = useLocation();
-    if (loading || isPending) {
+    if (  isLoading) {
         return <h1>Loading.......</h1>
     }
-    if (user && isAdmin) {
+    if (user && role === 'admin') {
         return children;
     }
 

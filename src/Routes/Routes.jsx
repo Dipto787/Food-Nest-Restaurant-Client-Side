@@ -20,6 +20,7 @@ import AdminHome from "../Pages/Dashboard/AdminHome";
 import UserHome from "../Pages/Dashboard/UserHome";
 import CardDetails from "../Pages/Order/Order/CardDetails";
 import BookTable from "../Pages/Dashboard/BookTable";
+import MyBooking from "../Pages/Dashboard/MyBooking";
 
 let router = createBrowserRouter([
     {
@@ -59,7 +60,7 @@ let router = createBrowserRouter([
 
     {
         path: 'dashboard',
-        element: <PrivateRoute><DashBoard></DashBoard></PrivateRoute>,
+        element: <DashBoard></DashBoard>,
         children: [
             {
                 path: 'cart',
@@ -97,11 +98,14 @@ let router = createBrowserRouter([
             {
                 path: 'updateItem/:id',
                 element: <AdminRoute><UpdateItems></UpdateItems></AdminRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
             },
             {
                 path:'reservation',
                 element:<BookTable></BookTable>
+            },
+            {
+                path:'bookings',
+                element:<MyBooking></MyBooking>
             }
         ]
     }

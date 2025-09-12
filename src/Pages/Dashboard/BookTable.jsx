@@ -1,13 +1,71 @@
 import { IoCall, IoLocationSharp, IoTimeSharp } from "react-icons/io5";
 import SectionTitle from "../../Components/Shared/SectionTitle/SectionTitle";
-
+import { fromJSON } from "postcss";
+import UseAxiosSecure from "../../Components/hooks/UseAxiosSecure";
+import Swal from "sweetalert2";
+import { useState } from "react";
+import { FaSpinner } from "react-icons/fa6";
+import UseAuth from "../../Components/hooks/UseAuth";
+import { useNavigate } from "react-router-dom";
 const BookTable = () => {
+  let navigate = useNavigate();
+  let axiosSecure = UseAxiosSecure();
+  let [loading, setLoading] = useState(false);
+  let { user } = UseAuth();
+  let handleBookTable = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    let form = e.target;
+    let date = form.date.value;
+    let time = form.time.value;
+    let guest = form.person.value;
+    let name = form.name.value;
+    let phone = form.phone.value;
+    let email = form.email.value;
+    let bookingInfo = {
+      date,
+      time,
+      guest,
+      name,
+      phone,
+      email,
+      bookingDate: new Date()
+    };
+    try {
+      let { data } = await axiosSecure.post('/bookTable', bookingInfo);
+      if (data.insertedId) {
+        navigate('/dashboard/bookings');
+        setLoading(false);
+        Swal.fire({
+          icon: 'success',
+          title: 'Success',
+          text: 'Table Booking SuccessFull !!'
+        })
+      } else {
+        setLoading(false);
+        Swal.fire({
+          icon: 'error',
+          title: 'Limit Error',
+          text: 'you have cross our rules limit, you have already book 2 table first do complete this bookings !!',
+
+        })
+      }
+    } catch (err) {
+      setLoading(false);
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: err.message
+      })
+    }
+
+  }
   return (
     <div className="px-5 md:px-10 py-10 space-y-12">
       {/* Reservation Section */}
       <SectionTitle heading={"Book a table"} subHeading={"Reservation"} />
 
-      <form onSubmit={(e) => e.preventDefault()} className="space-y-6">
+      <form onSubmit={handleBookTable} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Date */}
           <fieldset className="flex flex-col">
@@ -35,6 +93,7 @@ const BookTable = () => {
           <fieldset className="flex flex-col">
             <label className="text-sm font-semibold mb-2">Guest*</label>
             <select
+
               className="w-full border border-gray-300 p-2 bg-white text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"
               name="person"
             >
@@ -74,9 +133,10 @@ const BookTable = () => {
           <fieldset className="flex flex-col">
             <label className="text-sm font-semibold mb-2">Email*</label>
             <input
+              readOnly
+              defaultValue={user?.email}
               type="email"
               name="email"
-              placeholder="Your Email..."
               className="input bg-white text-black border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
               required
             />
@@ -84,8 +144,8 @@ const BookTable = () => {
         </div>
 
         <div className="text-center">
-          <button className="btn text-white font-semibold rounded-lg px-14 py-3 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-yellow-500 hover:to-orange-500 transition-transform transform hover:scale-105">
-            Book Table
+          <button disabled={loading} className="btn text-white font-semibold rounded-lg px-14 py-3 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-yellow-500 hover:to-orange-500 transition-transform transform hover:scale-105">
+            {loading ? <FaSpinner className="animate-spin text-white font-bold"></FaSpinner> : 'Book Table'}
           </button>
         </div>
       </form>

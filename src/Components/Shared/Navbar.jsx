@@ -68,13 +68,13 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm text-xs dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm text-black text-xs dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             {options}
                         </ul>
                     </div>
                     <Link className="btn text-red-500 font-bold btn-ghost text-xs">FOOD NEST</Link>
                 </div>
-                <div className="navbar-center  hidden lg:flex">
+                <div className="navbar-center   hidden lg:flex">
                     <ul className="menu  menu-horizontal px-1">
                         {options}
                     </ul>
